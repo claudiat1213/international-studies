@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings for main activity of app -->
+    <string name="app_name">International Studies</string>
+    <string name="mainTitle">Center for International Studies and Programs Mobile App</string>
+    <string name="mainAdviseTitle">Academic Advising</string>
+    <string name="action_settings">Settings</string>
+    <string name="mainAdmissionsTitle">Admissions Information</string>
+    <string name="mainExchangeTitle">Exchange Program</string>
+    <string name="mainServicesTitle">Student and Faculty services</string>
+    <string name="mainOtherTitle">Other Resources</string>
+    <string name="mainStudyTitle">Study Abroad</string>
+
+    <!-- Strings for Main Activity for Academic Advising -->
+    <string name="title_activity_second_advise">International Advising</string>
+    <string name="headerAdvise">International Advising</string>
+    <string name="adviseParagraph">The primary purpose of the academic
+        advising program at California State University San Bernardino
+        is to assist students in the development and implementation of
+        meaningful educational plans that are compatible with their life
+        goals. The program provides opportunities for students to assess
+        their interests and academic abilities, encouraging their fullest
+        intellectual development. Students at C.S.U.S.B will receive
+        ongoing support empowering them to accomplish their personal,
+        educational, and professional goals.</string>
+    <string name="cispButtonTitle">About CISP and Staff</string>
+    <string name="informationItemButtonTitle">Informational Items</string>
+    <string name="testOrientationButtonTitle">Orientation and Testing</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Strings for About CISP page -->
+    <string name="title_activity_about_cisp">About CISP</string>
+    <string name="aboutCispHeader">About Us</string>
+    <string name="aboutCispDescrip">CISP is the primary contact for international students,
+        including new immigrants and permanent resident students, at CSUSB. The Office provides
+        information about housing, health and support services, academic requirements, employment
+        opportunities, visa and immigration requirements, legal services, as well as a general
+        orientation to the campus and community. CISP assists international students to achieve
+        academic success, personal growth, leadership abilities, and professional goals.</string>
+    <string name="organizationalChartButtonTitle">CISP Organizational Chart</string>
+    <string name="title_activity_cisp_organizational_chart">CISP Organizational Chart</string>
+
+</resources>
