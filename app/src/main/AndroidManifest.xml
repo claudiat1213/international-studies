@@ -29,10 +29,14 @@
             android:name=".aboutCisp"
             android:label="@string/title_activity_about_cisp" >
         </activity>
-        <!--Activity for Organizational Chart PDF-->
+        <!-- Activity for Organizational Chart PDF -->
         <activity
             android:name=".cispOrganizationalChart"
             android:label="@string/title_activity_cisp_organizational_chart" >
+        </activity>
+        <activity
+            android:name=".cispStaff"
+            android:label="@string/title_activity_cisp_staff" >
         </activity>
     </application>
 

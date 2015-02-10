@@ -1,36 +1,25 @@
 package edu.csusb.internationalstudies;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class aboutCisp extends ActionBarActivity {
+
+public class cispStaff extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_cisp);
+        setContentView(R.layout.activity_cisp_staff);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_about_cisp, menu);
+        getMenuInflater().inflate(R.menu.menu_cisp_staff, menu);
         return true;
-    }
-
-    public void openChartPDF(View view){
-        Intent intent = new Intent(this, cispOrganizationalChart.class);
-        startActivity(intent);
-    }
-
-    public void openCispStaff(View view) {
-        Intent intent = new Intent(this, cispStaff.class);
-        startActivity(intent);
     }
 
     @Override
@@ -47,5 +36,4 @@ public class aboutCisp extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
 }

@@ -36,4 +36,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="67dp" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cispStaff"
+        android:id="@+id/button"
+        android:layout_below="@+id/organizationChartButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="openCispStaff"/>
+
+
 </RelativeLayout>
