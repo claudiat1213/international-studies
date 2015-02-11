@@ -26,19 +26,10 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/cispButtonTitle"
-        android:id="@+id/cispButton"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="startAboutCisp"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/informationItemButtonTitle"
         android:id="@+id/informationItemButton"
-        android:layout_below="@+id/cispButton"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
 
     <Button
         android:layout_width="match_parent"

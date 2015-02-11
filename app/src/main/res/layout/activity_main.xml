@@ -18,6 +18,14 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/mainAboutCispTitle"
+        android:id="@+id/mainAboutButton"
+        android:layout_above="@+id/mainAdviseButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="startAboutCisp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/mainAdviseTitle"
         android:id="@+id/mainAdviseButton"
         android:layout_alignBottom="@+id/mainAdmissionButton"
@@ -70,6 +78,7 @@
         android:layout_below="@+id/mainServicesButton"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"/>
+
 
 
 

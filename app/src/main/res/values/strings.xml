@@ -11,6 +11,7 @@
     <string name="mainServicesTitle">Student and Faculty services</string>
     <string name="mainOtherTitle">Other Resources</string>
     <string name="mainStudyTitle">Study Abroad</string>
+    <string name="mainAboutCispTitle">About Us</string>
 
     <!-- Strings for Main Activity for Academic Advising -->
     <string name="title_activity_second_advise">International Advising</string>
@@ -21,7 +22,7 @@
         meaningful educational plans that are compatible with their life
         goals. The program provides opportunities for students to assess
         their interests and academic abilities, encouraging their fullest
-        intellectual development. Students at C.S.U.S.B will receive
+        intellectual development. Students at CSUSB will receive
         ongoing support empowering them to accomplish their personal,
         educational, and professional goals.</string>
     <string name="cispButtonTitle">About CISP and Staff</string>

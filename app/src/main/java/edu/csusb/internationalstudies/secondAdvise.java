@@ -24,11 +24,6 @@ public class secondAdvise extends ActionBarActivity {
         return true;
     }
 
-    public void startAboutCisp(View view) {
-        Intent intent = new Intent(this, aboutCisp.class);
-        startActivity(intent);
-    }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
