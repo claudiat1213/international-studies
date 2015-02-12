@@ -68,7 +68,7 @@
         android:id="@+id/mainServicesButton"
         android:layout_below="@+id/mainExchangeButton"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="match_parent"

@@ -42,11 +42,10 @@
     <string name="organizationalChartButtonTitle">CISP Organizational Chart</string>
     <string name="title_activity_cisp_organizational_chart">CISP Organizational Chart</string>
 
-    <!--String for CISP Staff Page-->
+    <!-- String for CISP Staff Page -->
     <string name="cispStaff">CISP Staff</string>
     <string name="title_activity_cisp_staff">CISP Staff</string>
-    <string name="cispStaffBody">
-     Wen-Yang James Cheng\n
+    <string name="cispStaffBody">     Wen-Yang James Cheng\n
      Information Technology Consultant\n
      wcheng@csusb.edu\n
      (909) 537-5193\n \n
@@ -104,8 +103,18 @@
      Adrian Alvarez\n
      International Admissions Evaluator/Graphic Design\n
      aalvarez@csusb.edu\n
-     (909) 537-3269\n
+     (909) 537-3269\n</string>
+    <string name="title_activity_second_services">SecondServices</string>
+
+    <!-- Strings for Services to Faculty and Students Description activity -->
+    <string name="secondServicesDescript">
+    Welcome to the Student Services section of the CISP website.
+    </string>
+
+    <string name="thirdServicesDescript">
+        Here's an example string
 
     </string>
+
 
 </resources>

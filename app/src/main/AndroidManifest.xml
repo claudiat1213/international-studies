@@ -38,6 +38,10 @@
             android:name=".cispStaff"
             android:label="@string/title_activity_cisp_staff" >
         </activity>
+        <activity
+            android:name=".SecondServices"
+            android:label="@string/title_activity_second_services" >
+        </activity>
     </application>
 
 </manifest>
