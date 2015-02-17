@@ -28,25 +28,24 @@
     <string name="cispButtonTitle">About CISP and Staff</string>
     <string name="informationItemButtonTitle">Informational Items</string>
     <string name="testOrientationButtonTitle">Orientation and Testing</string>
-    <string name="hello_world">Hello world!</string>
 
     <!-- Strings for About CISP page -->
     <string name="title_activity_about_cisp">About CISP</string>
     <string name="aboutCispHeader">About Us</string>
-    <string name="aboutCispDescrip">CISP is the primary contact for international students,
-        including new immigrants and permanent resident students, at CSUSB. The Office provides
-        information about housing, health and support services, academic requirements, employment
-        opportunities, visa and immigration requirements, legal services, as well as a general
-        orientation to the campus and community. CISP assists international students to achieve
-        academic success, personal growth, leadership abilities, and professional goals.</string>
+    <string name="aboutCispDescrip">The Center for International Studies (CISP) supports
+        international students who come to study at CSUSB as permanent students or as part of
+        exchange programs. We also offer support to CSUSB students who wish to study abroad.\n\n
+        CISP offers help with advising, course selection and registration, fee and tuition payment,
+        housing, scholarships and other aspects of academic life necessary for success at CSUSB.\n\n
+        See the organizational chart and list of staff members for international academic advisors
+        and peer advisors.</string>
     <string name="organizationalChartButtonTitle">CISP Organizational Chart</string>
     <string name="title_activity_cisp_organizational_chart">CISP Organizational Chart</string>
 
-    <!--String for CISP Staff Page-->
+    <!-- String for CISP Staff Page -->
     <string name="cispStaff">CISP Staff</string>
     <string name="title_activity_cisp_staff">CISP Staff</string>
-    <string name="cispStaffBody">
-     Wen-Yang James Cheng\n
+    <string name="cispStaffBody">     Wen-Yang James Cheng\n
      Information Technology Consultant\n
      wcheng@csusb.edu\n
      (909) 537-5193\n \n
@@ -104,8 +103,49 @@
      Adrian Alvarez\n
      International Admissions Evaluator/Graphic Design\n
      aalvarez@csusb.edu\n
-     (909) 537-3269\n
+     (909) 537-3269\n</string>
 
-    </string>
+    <!-- Strings for Other Resources Page -->
+
+    <string name="title_activity_other_resources">Other Resources</string>
+    <string name="otherResourcesHeader">Other Resources</string>
+    <string name="healthInsuranceButtonTitle">Health Insurance</string>
+    <string name="campusMapButtonTitle">Campus Map</string>
+
+    <!-- Strings for Health Insurance Page -->
+    <string name="title_activity_health_insurance">Health Insurance</string>
+    <string name="healthInsuranceHeader">Health Insurance Requirements</string>
+    <string name="f1StudentDescrip"><u>F-1 Student</u>\n\n
+        Insurance is a requirement. Effective Aug. 1, 1995, all F-1 and J-1 visa applicants must
+        agree to obtain and maintain health insurance as a condition of registration and continued
+        enrollment in the California State University. This is a condition of receiving an I-20 or
+        DS-2019 form. Such insurance must be in amounts as specified by the United States
+        Information Agency (USIA) and NAFSA: Association of International Educators. The campus
+        president or designee shall determine which insurance policies meet these criteria. Further
+        information may be obtained from the Center for International Studies and Programs.</string>
+    <string name="j1StudentDescrip"><u>J-1 Student/Scholar</u>\n\n
+        The U.S. Information Agency requires all J-1 Exchange Visitors and their accompanying
+        dependents to have health and accident insurance at the following minimum level of
+        coverage:\n\n
+            \t•medical benefits of at least $50,000 per accident or illness\n
+            \t•repatriation of remains in the amount of $7,500\n
+            \t•expenses associated with medical evacuation in the amount of $10,000\n
+            \t•deductible not to exceed $500 per accident/illness\n\n
+        Therefore, J-1 scholars are required to either purchase sufficient health insurance in
+        their country, or upon arrival in the US may purchase health insurance which meets the
+        minimum requirements.<b>In other words, if you don’t have the required health insurance
+        from another provider, you must purchase it through the Center for International Studies
+        and Programs.</b>\n
+        If health insurance coverage is purchased from another source, the insurance corporation
+        underwriting the policy must have one of the following ratings:\n\n
+        \t•an A.M. Best rating of “A-” or above
+        \t•an Insurance Solvency International, Ltd., (ISI) rating of “A-i” or above
+        \t•a Standard &amp; Poor’s Claimspaying Ability rating of “A-” or above
+        \t•a Weiss Research, Inc. rating of “B+” or above
+        \t•nsurance coverage backed by the full faith and credit of your home government
+        meets these requirements.\n\n <b>The U.S. government regulations require the University to notify the U.S. Information
+            Agency and to terminate my J-1 exchange visitor status if they determine that you have
+            willfully failed to comply with the insurance requirements.</b></string>
+    <string name="title_activity_campus_map">campusMap</string>
 
 </resources>

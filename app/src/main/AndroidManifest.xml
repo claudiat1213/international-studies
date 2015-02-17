@@ -38,6 +38,18 @@
             android:name=".cispStaff"
             android:label="@string/title_activity_cisp_staff" >
         </activity>
+        <activity
+            android:name=".otherResources"
+            android:label="@string/title_activity_other_resources" >
+        </activity>
+        <activity
+            android:name=".healthInsurance"
+            android:label="@string/title_activity_health_insurance" >
+        </activity>
+        <activity
+            android:name=".campusMap"
+            android:label="@string/title_activity_campus_map" >
+        </activity>
     </application>
 
 </manifest>

@@ -8,34 +8,29 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class MainActivity extends ActionBarActivity {
+public class otherResources extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_other_resources);
     }
 
-    public void startSecondAdvise(View view) {
-        Intent intent = new Intent(this, secondAdvise.class);
-        startActivity(intent);
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_other_resources, menu);
         return true;
     }
 
-
-    public void startAboutCisp(View view) {
-        Intent intent = new Intent(this, aboutCisp.class);
+    public void openHealthInsurance (View view) {
+        Intent intent = new Intent(this, healthInsurance.class);
         startActivity(intent);
     }
 
-    public void openOtherResources (View view) {
-        Intent intent = new Intent(this, otherResources.class);
+    public void openCampusMap (View view) {
+        Intent intent = new Intent(this, campusMap.class);
         startActivity(intent);
     }
 

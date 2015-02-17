@@ -16,13 +16,13 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 
-public class cispOrganizationalChart extends ActionBarActivity {
+public class campusMap extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cisp_organizational_chart);
-    //Run PDF file CISP_flowchart.pdf
+        setContentView(R.layout.activity_campus_map);
+        //Run PDF file CSUSBcampusmap.pdf
         CopyReadAssests();
     }
 
@@ -30,7 +30,7 @@ public class cispOrganizationalChart extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_cisp_organizational_chart, menu);
+        getMenuInflater().inflate(R.menu.menu_campus_map, menu);
         return true;
     }
 
@@ -48,15 +48,14 @@ public class cispOrganizationalChart extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-//access assests folder and display CISP_flowchart.pdf
     private void CopyReadAssests() {
         AssetManager assetManager = getAssets();
 
         InputStream in = null;
         OutputStream out = null;
-        File file = new File(getFilesDir(), "CISP_flowchart.pdf");
+        File file = new File(getFilesDir(), "CSUSBcampusmap.pdf");
         try {
-            in = assetManager.open("CISP_flowchart.pdf");
+            in = assetManager.open("CSUSBcampusmap.pdf");
             out = openFileOutput(file.getName(), Context.MODE_WORLD_READABLE);
             copyFile(in, out);
             in.close();
@@ -69,7 +68,7 @@ public class cispOrganizationalChart extends ActionBarActivity {
         }
 
         Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setDataAndType(Uri.parse("file://" + getFilesDir() + "/CISP_flowchart.pdf"), "application/pdf");
+        intent.setDataAndType(Uri.parse("file://" + getFilesDir() + "/CSUSBcampusmap.pdf"), "application/pdf");
 
         startActivity(intent);
     }
