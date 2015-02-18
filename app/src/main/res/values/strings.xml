@@ -41,11 +41,10 @@
     <string name="organizationalChartButtonTitle">CISP Organizational Chart</string>
     <string name="title_activity_cisp_organizational_chart">CISP Organizational Chart</string>
 
-    <!--String for CISP Staff Page-->
+    <!-- String for CISP Staff Page -->
     <string name="cispStaff">CISP Staff</string>
     <string name="title_activity_cisp_staff">CISP Staff</string>
-    <string name="cispStaffBody">
-     Wen-Yang James Cheng\n
+    <string name="cispStaffBody">     Wen-Yang James Cheng\n
      Information Technology Consultant\n
      wcheng@csusb.edu\n
      (909) 537-5193\n \n
@@ -103,8 +102,14 @@
      Adrian Alvarez\n
      International Admissions Evaluator/Graphic Design\n
      aalvarez@csusb.edu\n
-     (909) 537-3269\n
-
-    </string>
+     (909) 537-3269\n</string>
+    <string name="title_activity_links_to_csusb">links_to_csusb</string>
+    <string name="links_to_textview">CSUSB Advising Information Links</string>
+    <string name="vital_tech_videos_button">Vital Technology Videos (how to use MyCoyote, how to add or drop a class)</string>
+    <string name="ge_courses_button">GE Courses</string>
+    <string name="ept_elm_test_button"><![CDATA[EPT & ELM Tests]]></string>
+    <string name="avoid_plagarism_button">How to Avoid Plagiarism</string>
+    <string name="orientation_holds_button">Orientation and Holds</string>
+    <string name="title_activity_videos_webview">videos_webview</string>
 
 </resources>

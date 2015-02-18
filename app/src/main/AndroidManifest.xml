@@ -3,6 +3,7 @@
     package="edu.csusb.internationalstudies" >
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -38,6 +39,11 @@
             android:name=".cispStaff"
             android:label="@string/title_activity_cisp_staff" >
         </activity>
+        <activity
+            android:name=".links_to_csusb"
+            android:label="@string/title_activity_links_to_csusb" >
+        </activity>
+
     </application>
 
 </manifest>

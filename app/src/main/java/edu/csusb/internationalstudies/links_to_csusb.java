@@ -1,6 +1,7 @@
 package edu.csusb.internationalstudies;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,25 +9,20 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class secondAdvise extends ActionBarActivity {
+public class links_to_csusb extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second_advise);
+        setContentView(R.layout.activity_links_to_csusb);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_second_advise, menu);
+        getMenuInflater().inflate(R.menu.menu_links_to_csusb, menu);
         return true;
-    }
-
-    public void startAboutCisp(View view) {
-        Intent intent = new Intent(this, aboutCisp.class);
-        startActivity(intent);
     }
 
     @Override
@@ -44,9 +40,9 @@ public class secondAdvise extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void startInformationalItems(View view) {
-        Intent intent = new Intent(this, links_to_csusb.class);
+    public void openVideos(View view) {
+        Uri uri = Uri.parse("http://international.csusb.edu/Pages/Admissions/TrainingVideo.aspx");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
-
     }
 }
