@@ -36,16 +36,24 @@
         international students who come to study at CSUSB as permanent students or as part of
         exchange programs. We also offer support to CSUSB students who wish to study abroad.\n\n
         CISP offers help with advising, course selection and registration, fee and tuition payment,
-        housing, scholarships and other aspects of academic life necessary for success at CSUSB.\n\n
-        See the organizational chart and list of staff members for international academic advisors
-        and peer advisors.</string>
+        housing, scholarships and other aspects of academic life necessary for success at CSUSB.\n\n</string>
     <string name="organizationalChartButtonTitle">CISP Organizational Chart</string>
     <string name="title_activity_cisp_organizational_chart">CISP Organizational Chart</string>
 
     <!-- String for CISP Staff Page -->
     <string name="cispStaff">CISP Staff</string>
     <string name="title_activity_cisp_staff">CISP Staff</string>
-    <string name="cispStaffBody">     Wen-Yang James Cheng\n
+    <string name="cispStaffBody">     Paul Amaya\n
+     Director, CISP\n
+     pamaya@csusb.edu\n
+     (909) 537-5193\n\n
+
+     Dr.Rueyling Chuang\n
+     Faculty Director, CISP\n
+     rchuang@csusb.edu\n
+     (909) 537-9537\n\n
+
+     Wen-Yang James Cheng\n
      Information Technology Consultant\n
      wcheng@csusb.edu\n
      (909) 537-5193\n \n
@@ -111,6 +119,7 @@
     <string name="otherResourcesHeader">Other Resources</string>
     <string name="healthInsuranceButtonTitle">Health Insurance</string>
     <string name="campusMapButtonTitle">Campus Map</string>
+    <string name="housingButtonTitle">Housing</string>
 
     <!-- Strings for Health Insurance Page -->
     <string name="title_activity_health_insurance">Health Insurance</string>
@@ -138,14 +147,36 @@
         and Programs.</b>\n
         If health insurance coverage is purchased from another source, the insurance corporation
         underwriting the policy must have one of the following ratings:\n\n
-        \t•an A.M. Best rating of “A-” or above
-        \t•an Insurance Solvency International, Ltd., (ISI) rating of “A-i” or above
-        \t•a Standard &amp; Poor’s Claimspaying Ability rating of “A-” or above
-        \t•a Weiss Research, Inc. rating of “B+” or above
-        \t•nsurance coverage backed by the full faith and credit of your home government
+        \t•an A.M. Best rating of “A-” or above\n
+        \t•an Insurance Solvency International, Ltd., (ISI) rating of “A-i” or above\n
+        \t•a Standard &amp; Poor’s Claims paying Ability rating of “A-” or above\n
+        \t•a Weiss Research, Inc. rating of “B+” or above\n
+        \t•insurance coverage backed by the full faith and credit of your home government\n\n
         meets these requirements.\n\n <b>The U.S. government regulations require the University to notify the U.S. Information
             Agency and to terminate my J-1 exchange visitor status if they determine that you have
             willfully failed to comply with the insurance requirements.</b></string>
     <string name="title_activity_campus_map">campusMap</string>
+    <string name="title_activity_housing">housing</string>
+
+    <!-- Strings for Housing Page -->
+    <string name="housingHeader">Housing</string>
+    <string name="onCampusHousingHeader"><b><u>On Campus Housing</u></b></string>
+    <string name="onCampusDescrip">        There is also housing available on campus for exchange visitors but availability is very
+        limited. You can e-mail conference@csusb.edu. Please refer your e-mail to Ruth Landeros
+        and she will be able to assist you in finding housing on campus, if it is available. DO
+        NOT try to get on campus housing through the link directly below because that
+        is only for students and they require a Coyote One ID#.!!</string>
+    <string name="onCampusForStudentsButtonTitle">On Campus Housing for Students</string>
+    <string name="title_activity_housing_on_campus_web_site">housingOnCampusWebSite</string>
+    <string name="offCampusHeader"><b><u>Off Campus Housing</u></b></string>
+    <string name="offCampusDescrip">WHAT YOU NEED TO KNOW BEFORE RENTING AN APARTMENT\n\n
+
+        It is very difficult to find short-term, furnished housing options in the US. Therefore,
+        you are advised to live in university residence halls when possible. Living in a residence
+        hall provides the convenience of a furnished room and a meal plan. In addition, you're
+        close to university classrooms, libraries and college life. However it is very difficult
+        to get a room on campus because the dorms do fill up quickly. Below are some options of
+        Apartments around CSU, San Bernardino.</string>
+
 
 </resources>

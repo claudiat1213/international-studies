@@ -3,6 +3,7 @@
     package="edu.csusb.internationalstudies" >
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -49,6 +50,14 @@
         <activity
             android:name=".campusMap"
             android:label="@string/title_activity_campus_map" >
+        </activity>
+        <activity
+            android:name=".housing"
+            android:label="@string/title_activity_housing" >
+        </activity>
+        <activity
+            android:name=".housingOnCampusWebSite"
+            android:label="@string/title_activity_housing_on_campus_web_site" >
         </activity>
     </application>
 

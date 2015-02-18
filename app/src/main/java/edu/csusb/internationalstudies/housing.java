@@ -8,34 +8,24 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class otherResources extends ActionBarActivity {
+public class housing extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_other_resources);
+        setContentView(R.layout.activity_housing);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_other_resources, menu);
+        getMenuInflater().inflate(R.menu.menu_housing, menu);
         return true;
     }
 
-    public void openHealthInsurance (View view) {
-        Intent intent = new Intent(this, healthInsurance.class);
-        startActivity(intent);
-    }
-
-    public void openCampusMap (View view) {
-        Intent intent = new Intent(this, campusMap.class);
-        startActivity(intent);
-    }
-
-    public void openHousingPage (View view) {
-        Intent intent = new Intent(this, housing.class);
+    public void openOnCampusHousing (View view) {
+        Intent intent = new Intent(this, housingOnCampusWebSite.class );
         startActivity(intent);
     }
 

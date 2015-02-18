@@ -35,4 +35,13 @@
         android:layout_below="@+id/healthInsuranceButtonTitle"
         android:layout_centerHorizontal="true"
         android:onClick="openCampusMap"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/housingButtonTitle"
+        android:id="@+id/housingButton"
+        android:layout_below="@+id/campusMapButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="openHousingPage"/>
 </RelativeLayout>

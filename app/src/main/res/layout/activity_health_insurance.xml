@@ -18,7 +18,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:paddingBottom="15sp" />
 
     <TextView
@@ -28,7 +28,8 @@
         android:id="@+id/f1StudentDescrip"
         android:layout_below="@+id/healthInsuranceHeader"
         android:layout_centerHorizontal="true"
-        android:gravity="left|center" />
+        android:gravity="left|center"
+        android:textSize="15sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -38,7 +39,8 @@
         android:layout_marginTop="41dp"
         android:layout_below="@+id/f1StudentDescrip"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="15sp" />
 
     </RelativeLayout>
 </ScrollView>
