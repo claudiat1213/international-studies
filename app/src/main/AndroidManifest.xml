@@ -3,7 +3,7 @@
     package="edu.csusb.internationalstudies" >
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -58,6 +58,10 @@
         <activity
             android:name=".housingOnCampusWebSite"
             android:label="@string/title_activity_housing_on_campus_web_site" >
+        </activity>
+        <activity
+            android:name=".ExchangeProgram"
+            android:label="@string/title_activity_exchange_program" >
         </activity>
     </application>
 

@@ -177,6 +177,9 @@
         close to university classrooms, libraries and college life. However it is very difficult
         to get a room on campus because the dorms do fill up quickly. Below are some options of
         Apartments around CSU, San Bernardino.</string>
+    <string name="title_activity_exchange_program">ExchangeProgram</string>
+
+    <string name="hello_world">Hello world!</string>
 
 
 </resources>
