@@ -60,7 +60,7 @@
             android:label="@string/title_activity_housing_on_campus_web_site" >
         </activity>
         <activity
-            android:name=".ExchangeProgram"
+            android:name=".exchangeProgram"
             android:label="@string/title_activity_exchange_program" >
         </activity>
     </application>

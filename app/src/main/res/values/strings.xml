@@ -180,6 +180,17 @@
     <string name="title_activity_exchange_program">ExchangeProgram</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="ExchangePrograms">Exchange Programs</string>
+    <string name="DomesticStudents">Domestic Students</string>
+    <string name="NationalStudentExchangeProgram">National Student Exchange Program</string>
+    <string name="InternationalStudents">International Students</string>
+    <string name="ExchangeprogramContent">CSUSB is a member of this cooperative program that allows selected
+        students to spend up to one year at one of 168 U.S. colleges. These campuses are located in 48 states,
+        District of Columbia, Puerto Rico, Guam, Virgin Islands and Canada. The exchange student pays either normal Cal State
+        San Bernardino fees or in state tuition at the host institution. For more information on participating
+        institutions and how you can take advantage of this opportunity visit, click on the options below:</string>
+    <string name="title_activity_national_student_exchange">nationalStudentExchange</string>
+    <string name="exchangeFinancialAid">Exchange Program Financial Aid</string>
 
 
 </resources>

@@ -27,7 +27,10 @@ public class MainActivity extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-
+    public void startexchangeProgram(View view) {
+        Intent intent = new Intent(this, exchangeProgram.class);
+        startActivity(intent);
+    }
 
     public void startAboutCisp(View view) {
         Intent intent = new Intent(this, aboutCisp.class);

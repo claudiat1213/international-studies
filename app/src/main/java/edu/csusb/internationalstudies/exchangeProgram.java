@@ -1,12 +1,15 @@
 package edu.csusb.internationalstudies;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
-public class ExchangeProgram extends ActionBarActivity {
+public class exchangeProgram extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +24,16 @@ public class ExchangeProgram extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_exchange_program, menu);
         return true;
     }
-
+    public void startNseWebsite(View view) {
+        Uri uri = Uri.parse("http://www.nse.org/");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+    public void startCSUSBNseWebsite(View view) {
+        Uri uri = Uri.parse("http://finaid.csusb.edu/resources/nationalStudentExchange.html");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -36,4 +48,6 @@ public class ExchangeProgram extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }

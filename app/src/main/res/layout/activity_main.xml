@@ -59,7 +59,8 @@
         android:id="@+id/mainExchangeButton"
         android:layout_below="@+id/mainStudyButton"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"
+        android:onClick="startexchangeProgram" />
 
     <Button
         android:layout_width="match_parent"
