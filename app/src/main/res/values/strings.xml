@@ -191,6 +191,13 @@
         institutions and how you can take advantage of this opportunity visit, click on the options below:</string>
     <string name="title_activity_national_student_exchange">nationalStudentExchange</string>
     <string name="exchangeFinancialAid">Exchange Program Financial Aid</string>
+    <string name="programsAndCourses">Programs and Courses</string>
+    <string name="title_activity_programs_and_sources">programsAndSources</string>
+    <string name="courseListings">Course Listings</string>
+    <string name="courseListingsHeader">Course Listings</string>
+    <string name="programsAndSourcesHeader">Programs and Sources</string>
+    <string name="title_activity_cisp_program_brochures">cispProgramBrochures</string>
+    <string name="cispBrochuresButton">CISP Brochures</string>
 
 
 </resources>

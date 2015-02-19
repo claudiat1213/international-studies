@@ -1,31 +1,25 @@
 package edu.csusb.internationalstudies;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 
-public class secondAdvise extends ActionBarActivity {
+public class cispProgramBrochures extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second_advise);
+        setContentView(R.layout.activity_cisp_program_brochures);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_second_advise, menu);
+        getMenuInflater().inflate(R.menu.menu_cisp_program_brochures, menu);
         return true;
-    }
-    public void startprogramsAndCourses(View view) {
-        Intent intent = new Intent(this, programsAndCourses.class);
-        startActivity(intent);
     }
 
     @Override
