@@ -4,7 +4,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="edu.csusb.internationalstudies.aboutCisp">
+    tools:context="edu.csusb.internationalstudies.aboutCisp"
+    android:onClick="openCispStaff">
 
     <TextView
         android:text="@string/aboutCispHeader"
@@ -42,8 +43,7 @@
         android:text="@string/cispStaff"
         android:id="@+id/button"
         android:layout_below="@+id/organizationChartButton"
-        android:layout_centerHorizontal="true"
-        android:onClick="openCispStaff"/>
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>
