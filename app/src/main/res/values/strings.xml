@@ -111,7 +111,26 @@
      Adrian Alvarez\n
      International Admissions Evaluator/Graphic Design\n
      aalvarez@csusb.edu\n
-     (909) 537-3269\n</string>
+     (909) 537-3269\n\n
+
+     CISP Peer Advisors/Student Assistants\n
+        Qu Meng\n
+        qum@coyote.csusb.edu\n\n
+
+        Juby Huang\n
+        jubee115@gmail.com\n\n
+
+        Hsiang-wen Cheng\n
+        bb78123@hotmail.com\n\n
+
+        Leqing Zhou\n
+        zhoul@coyote.csusb.edu\n\n
+
+        Ying Pan\n
+        yingpan0509@gmail.com
+
+
+    </string>
 
     <!-- Strings for Other Resources Page -->
 
@@ -167,7 +186,7 @@
         NOT try to get on campus housing through the link directly below because that
         is only for students and they require a Coyote One ID#.!!</string>
     <string name="onCampusForStudentsButtonTitle">On Campus Housing for Students</string>
-    <string name="title_activity_housing_on_campus_web_site">housingOnCampusWebSite</string>
+    <string name="title_activity_housing_on_campus_web_site">On Campus Housing</string>
     <string name="offCampusHeader"><b><u>Off Campus Housing</u></b></string>
     <string name="offCampusDescrip">WHAT YOU NEED TO KNOW BEFORE RENTING AN APARTMENT\n\n
 
@@ -176,10 +195,74 @@
         hall provides the convenience of a furnished room and a meal plan. In addition, you are
         close to university classrooms, libraries and college life. However it is very difficult
         to get a room on campus because the dorms do fill up quickly. Below are some options of
-        Apartments around CSU, San Bernardino.</string>
-    <string name="title_activity_exchange_program">ExchangeProgram</string>
+        Apartments around CSU, San Bernardino.\n\n
+    </string>
+    <string name="mountainVillageHousing">
+        <u>Mountainside Village</u>\n
+        Office: (909) 886-2100\n
+        Office Fax: (909) 886-2103\n
+        Email: office@msidevillage.com\n
+        Website: www.msidevillage.com\n
+        Address: 1660 Kendall Drive San Bernardino, CA 92407\n
+    </string>
+    <string name="acaciaParkHousing">
+        <u>Acacia Park Apartments</u>\n
+        Contact Person: Leilani Collier\n
+        Telephone: (909) 880-2068\n
+        Fax: (909) 880-1449\n
+        Website: www.acaciaparkapts.com\n
+        Address: 5280 N. Little Mountain Dr., San Bernardino, CA 92407  \n
+    </string>
+    <string name="athenaGardenHousing">
+        <u>Athena Garden</u>\n
+        Contact Person: Timothy\n
+        Office: (909) 880-8563\n
+        Address: 2294 Kendall Drive, San Bernardino, CA 92407  \n
+    </string>
+    <string name="broadstoneHousing">
+        <u>Broadstone Serrano</u>\n
+        Contact Person: Melinda Gater / Melinda Rios\n
+        Telephone: (909) 880-1884\n
+        Fax: (909) 880-3225\n
+        Email: broadstoneserrano@allresco.com\n
+        Website: www.broadstoneserrano-apts.com\n
+        Address: 1930 W. College Ave., San Bernardino, CA 92407  \n
+    </string>
+    <string name="castleParkHousing">
+        <u>Castle Park Resort Apartments</u>\n
+        Office: (909) 880-1828\n
+        Office Fax: (909) 887-8849\n
+        Email: castlepark@legacypartners.com\n
+        Website: www.castleparkresort.com\n
+        Address: 2065 W. College Avenue San Bernardino, CA 92407  \n
+    </string>
+    <string name="havenApartment">
+        <u>Crest Haven Apartment Homes</u>\n
+        Office: (909) 887-1430\n
+        Office Fax: (909) 887-8375\n
+        Website: www.cresthavenapartments.net\n
+        Address: 6155 Palm Avenue San Bernardino, CA 92407  \n
+    </string>
+    <string name="lidoHousing">
+        <u>Lido Communities</u>\n
+        Contact Person: Deanna Zaragoza, Community Manager\n
+        Office: (909) 886-2100\n
+        Office Fax: (909) 886-2103\n
+        Email: lidoatshandinhills@hotmail.com\n
+        Website: www.LidoShandinHills.com\n
+        Address: 1265 Kendall Drive, San Bernardino, CA 92407  \n
+    </string>
+    <string name="sunriseHousing">
+         <u>Sunrise Apartments</u>\n
+        Contact Person: Loretta Chavez\n
+        Telephone: (909) 887-8171\n
+        Fax: (909) 887-4248\n
+        Email: sunrise@rpmcompany.net\n
+        Address: 1505 Northpark Boulevard, San Bernardino, CA 92407  \n
+    </string>
 
-    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_exchange_program">Exchange Program</string>
     <string name="ExchangePrograms">Exchange Programs</string>
     <string name="DomesticStudents">Domestic Students</string>
     <string name="NationalStudentExchangeProgram">National Student Exchange Program</string>
@@ -189,14 +272,14 @@
         District of Columbia, Puerto Rico, Guam, Virgin Islands and Canada. The exchange student pays either normal Cal State
         San Bernardino fees or in state tuition at the host institution. For more information on participating
         institutions and how you can take advantage of this opportunity visit, click on the options below:</string>
-    <string name="title_activity_national_student_exchange">nationalStudentExchange</string>
+    <string name="title_activity_national_student_exchange">National Student Exchange</string>
     <string name="exchangeFinancialAid">Exchange Program Financial Aid</string>
     <string name="programsAndCourses">Programs and Courses</string>
-    <string name="title_activity_programs_and_sources">programsAndSources</string>
+    <string name="title_activity_programs_and_sources">Programs And Sources</string>
     <string name="courseListings">Course Listings</string>
     <string name="courseListingsHeader">Course Listings</string>
     <string name="programsAndSourcesHeader">Programs and Sources</string>
-    <string name="title_activity_cisp_program_brochures">cispProgramBrochures</string>
+    <string name="title_activity_cisp_program_brochures">CISP Program Brochures</string>
     <string name="cispBrochuresButton">CISP Brochures</string>
 
 

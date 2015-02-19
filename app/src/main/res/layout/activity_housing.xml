@@ -70,15 +70,101 @@
         android:gravity="center"
         android:textSize="15sp" />
 
-    <ExpandableListView
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/expandableListView"
-        android:layout_alignParentBottom="true"
+        android:text="@string/mountainVillageHousing"
+        android:id="@+id/mountainVillageHousing"
+        android:autoLink="all"
         android:layout_below="@+id/offCampusDescrip"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:transcriptMode="alwaysScroll"/>
+        android:gravity="center"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acaciaParkHousing"
+        android:id="@+id/acaciaParkHousing"
+        android:autoLink="all"
+        android:layout_below="@id/mountainVillageHousing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/athenaGardenHousing"
+        android:id="@+id/athenaGardenHousing"
+        android:autoLink="all"
+        android:layout_below="@id/acaciaParkHousing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/broadstoneHousing"
+        android:id="@+id/broadstoneHousing"
+        android:autoLink="all"
+        android:layout_below="@id/athenaGardenHousing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/castleParkHousing"
+        android:id="@+id/castleParkHousing"
+        android:autoLink="all"
+        android:layout_below="@id/broadstoneHousing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/havenApartment"
+        android:id="@+id/havenApartment"
+        android:autoLink="all"
+        android:layout_below="@id/castleParkHousing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lidoHousing"
+        android:id="@+id/lidoHousing"
+        android:autoLink="all"
+        android:layout_below="@id/havenApartment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sunriseHousing"
+        android:id="@+id/sunriseHousing"
+        android:autoLink="all"
+        android:layout_below="@id/lidoHousing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textSize="15sp"/>
 
 </RelativeLayout>
 </ScrollView>
