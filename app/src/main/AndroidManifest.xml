@@ -71,6 +71,10 @@
             android:name=".cispProgramBrochures"
             android:label="@string/title_activity_cisp_program_brochures" >
         </activity>
+        <activity
+            android:name=".Deadline"
+            android:label="@string/title_activity_deadline" >
+        </activity>
     </application>
 
 </manifest>

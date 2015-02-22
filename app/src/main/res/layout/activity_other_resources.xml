@@ -43,5 +43,14 @@
         android:id="@+id/housingButton"
         android:layout_below="@+id/campusMapButton"
         android:layout_centerHorizontal="true"
-        android:onClick="openHousingPage"/>
+        android:onClick="openHousingPage"
+        android:nestedScrollingEnabled="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deadlineButton"
+        android:layout_below="@+id/housingButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/deadlineButtonTitle" />
 </RelativeLayout>
