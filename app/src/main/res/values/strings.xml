@@ -269,9 +269,12 @@
 
     <!-- Strings for Deadline Page -->
     <string name="deadlineHeader">Deadlines</string>
-
-
-
+    <string name="title_activity_activity_news_and_weather">activityNewsAndWeather</string>
+    <string name="newsandweatherHeader">News and Weather Information</string>
+    <string name="newsandweatherBody">For the latest news and weather information, click on the appropriate button below! News information is provided by CSUSB. It is usually bright and sunny at CSUSB with occasional winds and very little rain.  Weather information is provided by Weather Underground.</string>
+    <string name="newsandweatherCSUSBNews">CSUSB Campus News</string>
+    <string name="newsandweatherCSUSBWeather">CSUSB Campus Weather</string>
+    <string name="otherResourcesNewsAndWeather">Campus News and Weather</string>
 
 
 </resources>

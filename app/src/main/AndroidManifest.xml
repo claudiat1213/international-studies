@@ -75,6 +75,10 @@
             android:name=".Deadline"
             android:label="@string/title_activity_deadline" >
         </activity>
+        <activity
+            android:name=".NewsAndWeather"
+            android:label="@string/title_activity_activity_news_and_weather" >
+        </activity>
     </application>
 
 </manifest>
