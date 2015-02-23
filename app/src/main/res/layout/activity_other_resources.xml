@@ -43,5 +43,26 @@
         android:id="@+id/housingButton"
         android:layout_below="@+id/campusMapButton"
         android:layout_centerHorizontal="true"
-        android:onClick="openHousingPage"/>
+        android:onClick="openHousingPage"
+        android:nestedScrollingEnabled="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deadlineButton"
+        android:layout_below="@+id/housingButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/deadlineButtonTitle" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otherResourcesNewsAndWeather"
+        android:id="@+id/button8"
+        android:layout_below="@+id/deadlineButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="openNewsAndWeather" />
 </RelativeLayout>

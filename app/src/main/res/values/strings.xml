@@ -29,6 +29,40 @@
     <string name="informationItemButtonTitle">Informational Items</string>
     <string name="testOrientationButtonTitle">Orientation and Testing</string>
 
+    <!-- Strings for Study Abroad page -->
+    <string name="study_abroad_programs_list_title">Study Abroad Programs List</string>
+    <string name="horizon_application_title">Horizon Application</string>
+    <string name="study_abroad_programs_list_body">
+        Sao Paolo, Paraty, Rio de Janeiro, Brazil\n\n
+
+        Beijing, Shanghai, Suzhou, China\n\n
+
+        San Jose, Arenal &amp; Guanacaste, Costa Rica\n\n
+
+        Otavalo, Quito, Amazonia, Patate, Cuenca, Ecuador\n\n
+
+        Cairo, Alexandria, Hurghada, Luxor, Egypt\n\n
+
+        Paris, France\n\n
+
+        New Delhi, Jaipur, Agra (The Golden Triangle), India\n\n
+
+        Dublin, Belfast, Meath, Galway, Ireland\n\n
+
+        Milan,Venice,Bologna,Florence,Rome, Italy\n\n
+
+        Amman, Jerash, Madaba, Petra, Wadi Rum, Jordan\n\n
+
+        Nairobi, Naivasha, Nakuru, Kakamega, Kisumi, Masai Mara, Kenya\n\n
+
+        London, United Kingdom\n\n
+
+        Cancun, Izamal, Merida, Valladolid, Tulum, Puerto Morelos, Mexico\n\n
+
+        Casa Blanca, Marrakes, Ouzoud, Rabat, Fes &amp; Meknes, Morocco\n\n
+
+    </string>
+
     <!-- Strings for About CISP page -->
     <string name="title_activity_about_cisp">About CISP</string>
     <string name="aboutCispHeader">About Us</string>
@@ -127,10 +161,7 @@
         zhoul@coyote.csusb.edu\n\n
 
         Ying Pan\n
-        yingpan0509@gmail.com
-
-
-    </string>
+        yingpan0509@gmail.com</string>
 
     <!-- Strings for Other Resources Page -->
 
@@ -139,6 +170,9 @@
     <string name="healthInsuranceButtonTitle">Health Insurance</string>
     <string name="campusMapButtonTitle">Campus Map</string>
     <string name="housingButtonTitle">Housing</string>
+    <string name="deadlineButtonTitle">Deadlines</string>
+
+
 
     <!-- Strings for Health Insurance Page -->
     <string name="title_activity_health_insurance">Health Insurance</string>
@@ -195,73 +229,54 @@
         hall provides the convenience of a furnished room and a meal plan. In addition, you are
         close to university classrooms, libraries and college life. However it is very difficult
         to get a room on campus because the dorms do fill up quickly. Below are some options of
-        Apartments around CSU, San Bernardino.\n\n
-    </string>
-    <string name="mountainVillageHousing">
-        <u>Mountainside Village</u>\n
+        Apartments around CSU, San Bernardino.\n\n</string>
+    <string name="mountainVillageHousing"><u>Mountainside Village</u>\n
         Office: (909) 886-2100\n
         Office Fax: (909) 886-2103\n
         Email: office@msidevillage.com\n
         Website: www.msidevillage.com\n
-        Address: 1660 Kendall Drive San Bernardino, CA 92407\n
-    </string>
-    <string name="acaciaParkHousing">
-        <u>Acacia Park Apartments</u>\n
+        Address: 1660 Kendall Drive San Bernardino, CA 92407\n</string>
+    <string name="acaciaParkHousing"><u>Acacia Park Apartments</u>\n
         Contact Person: Leilani Collier\n
         Telephone: (909) 880-2068\n
         Fax: (909) 880-1449\n
         Website: www.acaciaparkapts.com\n
-        Address: 5280 N. Little Mountain Dr., San Bernardino, CA 92407  \n
-    </string>
-    <string name="athenaGardenHousing">
-        <u>Athena Garden</u>\n
+        Address: 5280 N. Little Mountain Dr., San Bernardino, CA 92407  \n</string>
+    <string name="athenaGardenHousing"><u>Athena Garden</u>\n
         Contact Person: Timothy\n
         Office: (909) 880-8563\n
-        Address: 2294 Kendall Drive, San Bernardino, CA 92407  \n
-    </string>
-    <string name="broadstoneHousing">
-        <u>Broadstone Serrano</u>\n
+        Address: 2294 Kendall Drive, San Bernardino, CA 92407  \n</string>
+    <string name="broadstoneHousing"><u>Broadstone Serrano</u>\n
         Contact Person: Melinda Gater / Melinda Rios\n
         Telephone: (909) 880-1884\n
         Fax: (909) 880-3225\n
         Email: broadstoneserrano@allresco.com\n
         Website: www.broadstoneserrano-apts.com\n
-        Address: 1930 W. College Ave., San Bernardino, CA 92407  \n
-    </string>
-    <string name="castleParkHousing">
-        <u>Castle Park Resort Apartments</u>\n
+        Address: 1930 W. College Ave., San Bernardino, CA 92407  \n</string>
+    <string name="castleParkHousing"><u>Castle Park Resort Apartments</u>\n
         Office: (909) 880-1828\n
         Office Fax: (909) 887-8849\n
         Email: castlepark@legacypartners.com\n
         Website: www.castleparkresort.com\n
-        Address: 2065 W. College Avenue San Bernardino, CA 92407  \n
-    </string>
-    <string name="havenApartment">
-        <u>Crest Haven Apartment Homes</u>\n
+        Address: 2065 W. College Avenue San Bernardino, CA 92407  \n</string>
+    <string name="havenApartment"><u>Crest Haven Apartment Homes</u>\n
         Office: (909) 887-1430\n
         Office Fax: (909) 887-8375\n
         Website: www.cresthavenapartments.net\n
-        Address: 6155 Palm Avenue San Bernardino, CA 92407  \n
-    </string>
-    <string name="lidoHousing">
-        <u>Lido Communities</u>\n
+        Address: 6155 Palm Avenue San Bernardino, CA 92407  \n</string>
+    <string name="lidoHousing"><u>Lido Communities</u>\n
         Contact Person: Deanna Zaragoza, Community Manager\n
         Office: (909) 886-2100\n
         Office Fax: (909) 886-2103\n
         Email: lidoatshandinhills@hotmail.com\n
         Website: www.LidoShandinHills.com\n
-        Address: 1265 Kendall Drive, San Bernardino, CA 92407  \n
-    </string>
-    <string name="sunriseHousing">
-         <u>Sunrise Apartments</u>\n
+        Address: 1265 Kendall Drive, San Bernardino, CA 92407  \n</string>
+    <string name="sunriseHousing"><u>Sunrise Apartments</u>\n
         Contact Person: Loretta Chavez\n
         Telephone: (909) 887-8171\n
         Fax: (909) 887-4248\n
         Email: sunrise@rpmcompany.net\n
-        Address: 1505 Northpark Boulevard, San Bernardino, CA 92407  \n
-    </string>
-
-
+        Address: 1505 Northpark Boulevard, San Bernardino, CA 92407  \n</string>
     <string name="title_activity_exchange_program">Exchange Program</string>
     <string name="ExchangePrograms">Exchange Programs</string>
     <string name="DomesticStudents">Domestic Students</string>
@@ -281,6 +296,22 @@
     <string name="programsAndSourcesHeader">Programs and Sources</string>
     <string name="title_activity_cisp_program_brochures">CISP Program Brochures</string>
     <string name="cispBrochuresButton">CISP Brochures</string>
+    <string name="title_activity_second_deadline">secondDeadline</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_deadline">Deadline</string>
+
+    <!-- Strings for Deadline Page -->
+    <string name="deadlineHeader">Deadlines</string>
+    <string name="title_activity_study_abroad">StudyAbroad</string>
+    <string name="title_activity_study_abroad_programs_list">studyAbroadProgramsList</string>
+    <string name="title_activity_study_abroad_horizon_application">studyAbroadHorizonApplication</string>
+    <string name="title_activity_activity_news_and_weather">activityNewsAndWeather</string>
+    <string name="newsandweatherHeader">News and Weather Information</string>
+    <string name="newsandweatherBody">For the latest news and weather information, click on the appropriate button below! News information is provided by CSUSB. It is usually bright and sunny at CSUSB with occasional winds and very little rain.  Weather information is provided by Weather Underground.</string>
+    <string name="newsandweatherCSUSBNews">CSUSB Campus News</string>
+    <string name="newsandweatherCSUSBWeather">CSUSB Campus Weather</string>
+    <string name="otherResourcesNewsAndWeather">Campus News and Weather</string>
+    <string name="cispProgramBrochures">Coming Soon, waiting on brochures from client.</string>
 
 
 </resources>

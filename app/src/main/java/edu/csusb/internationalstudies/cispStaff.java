@@ -1,12 +1,13 @@
 package edu.csusb.internationalstudies;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
+//import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class cispStaff extends ActionBarActivity {
+public class cispStaff extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

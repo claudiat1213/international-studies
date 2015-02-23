@@ -1,14 +1,15 @@
 package edu.csusb.internationalstudies;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
+//import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
 
-public class otherResources extends ActionBarActivity {
+public class otherResources extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,11 @@ public class otherResources extends ActionBarActivity {
 
     public void openHousingPage (View view) {
         Intent intent = new Intent(this, housing.class);
+        startActivity(intent);
+    }
+
+    public void openNewsAndWeather (View view) {
+        Intent intent = new Intent(this, NewsAndWeather.class);
         startActivity(intent);
     }
 

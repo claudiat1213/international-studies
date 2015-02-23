@@ -1,15 +1,16 @@
 package edu.csusb.internationalstudies;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.ActionBarActivity;
+//import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
 
-public class exchangeProgram extends ActionBarActivity {
+public class exchangeProgram extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
