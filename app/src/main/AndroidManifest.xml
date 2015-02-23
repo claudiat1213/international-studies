@@ -91,6 +91,22 @@
             android:name=".NewsAndWeather"
             android:label="@string/title_activity_activity_news_and_weather" >
         </activity>
+        <activity
+            android:name=".admissionsInfo"
+            android:label="@string/title_activity_admissions_info" >
+        </activity>
+        <activity
+            android:name=".admissionsUndergrad"
+            android:label="@string/title_activity_admissions_undergrad" >
+        </activity>
+        <activity
+            android:name=".admissionsGrad"
+            android:label="@string/title_activity_admissions_grad" >
+        </activity>
+        <activity
+            android:name=".admissionsMBA"
+            android:label="@string/title_activity_admissions_mb" >
+        </activity>
     </application>
 
 </manifest>

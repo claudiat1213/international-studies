@@ -6,7 +6,58 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="edu.csusb.internationalstudies.admissionsInfo">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admissionsHeader"
+        android:id="@+id/admissionHeader"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/admissionsUndergrad"
+        android:id="@+id/admissionsUndergrad"
+        android:layout_below="@+id/admissionHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:onClick="openAdmissionsUndergrad"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admissionsGrad"
+        android:id="@+id/admissionsGrad"
+        android:layout_below="@+id/admissionsUndergrad"
+        android:layout_alignLeft="@+id/admissionsUndergrad"
+        android:layout_alignStart="@+id/admissionsUndergrad"
+        android:layout_alignRight="@+id/admissionsUndergrad"
+        android:layout_alignEnd="@+id/admissionsUndergrad"
+        android:onClick="openAdmissionsGrad"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admissionsMBA"
+        android:id="@+id/admissionsMBA"
+        android:layout_below="@+id/admissionsGrad"
+        android:layout_alignLeft="@+id/admissionsGrad"
+        android:layout_alignStart="@+id/admissionsGrad"
+        android:layout_alignRight="@+id/admissionsUndergrad"
+        android:layout_alignEnd="@+id/admissionsUndergrad"
+        android:onClick="openAdmissionsMBA"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admissionsCSUMentor"
+        android:id="@+id/admissionsCSUMentor"
+        android:layout_below="@+id/admissionsMBA"
+        android:layout_alignLeft="@+id/admissionsMBA"
+        android:layout_alignStart="@+id/admissionsMBA"
+        android:layout_alignRight="@+id/admissionsMBA"
+        android:layout_alignEnd="@+id/admissionsMBA"/>
 </RelativeLayout>

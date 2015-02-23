@@ -33,6 +33,11 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+    public void openAdmissions(View view) {
+        Intent intent = new Intent(this, admissionsInfo.class);
+        startActivity(intent);
+    }
+
     public void startAboutCisp(View view) {
         Intent intent = new Intent(this, aboutCisp.class);
         startActivity(intent);
