@@ -275,6 +275,7 @@
     <string name="newsandweatherCSUSBNews">CSUSB Campus News</string>
     <string name="newsandweatherCSUSBWeather">CSUSB Campus Weather</string>
     <string name="otherResourcesNewsAndWeather">Campus News and Weather</string>
+    <string name="cispProgramBrochures">Coming Soon, waiting on brochures from client.</string>
 
 
 </resources>
