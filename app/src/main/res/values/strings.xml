@@ -297,7 +297,6 @@
     <string name="title_activity_cisp_program_brochures">CISP Program Brochures</string>
     <string name="cispBrochuresButton">CISP Brochures</string>
     <string name="title_activity_second_deadline">secondDeadline</string>
-    <string name="hello_world">Hello world!</string>
     <string name="title_activity_deadline">Deadline</string>
 
     <!-- Strings for Deadline Page -->
@@ -312,6 +311,12 @@
     <string name="newsandweatherCSUSBWeather">CSUSB Campus Weather</string>
     <string name="otherResourcesNewsAndWeather">Campus News and Weather</string>
     <string name="cispProgramBrochures">Coming Soon, waiting on brochures from client.</string>
+    <string name="title_activity_admissions_info">admissionsInfo</string>
 
+    <!-- Strings for Addmission Main Page -->
+    <string name="admissionsHeader">Admissions Information</string>
+    <string name="admissionsMBA">MBA</string>
+    <string name="admissionsUndergrad">Undergraduate</string>
+    <string name="admissionsGrad">Graduate</string>
 
 </resources>
