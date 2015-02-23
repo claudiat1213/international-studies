@@ -312,6 +312,8 @@
     <string name="otherResourcesNewsAndWeather">Campus News and Weather</string>
     <string name="cispProgramBrochures">Coming Soon, waiting on brochures from client.</string>
     <string name="title_activity_admissions_info">admissionsInfo</string>
+    <string name="exchangeProgram121Body">The 1+2+1 Program was started in 2001 under the joint administration of China Educational Association for International Exchange (CEAIE), the China Center for International Educational Exchange (CCIEE), and the American Association of State Colleges and Universities (AASCU), to promote cooperation and exchange between Chinese and U.S. higher education. This is our 5th year offering the 1+2+1 Program and we currently have about 100 students participating. On this page you can read some testimonials from other students in the 1+2+1 Program and see pictures of activities.</string>
+    <string name="exchangeProgram121Header">1 - 2 - 1 Articulation Program</string>
 
     <!-- Strings for Addmission Main Page -->
     <string name="admissionsHeader">Admissions Information</string>
