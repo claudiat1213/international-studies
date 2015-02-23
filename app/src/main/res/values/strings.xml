@@ -172,6 +172,8 @@
     <string name="housingButtonTitle">Housing</string>
     <string name="deadlineButtonTitle">Deadlines</string>
 
+
+
     <!-- Strings for Health Insurance Page -->
     <string name="title_activity_health_insurance">Health Insurance</string>
     <string name="healthInsuranceHeader">Health Insurance Requirements</string>
@@ -303,5 +305,13 @@
     <string name="title_activity_study_abroad">StudyAbroad</string>
     <string name="title_activity_study_abroad_programs_list">studyAbroadProgramsList</string>
     <string name="title_activity_study_abroad_horizon_application">studyAbroadHorizonApplication</string>
+    <string name="title_activity_activity_news_and_weather">activityNewsAndWeather</string>
+    <string name="newsandweatherHeader">News and Weather Information</string>
+    <string name="newsandweatherBody">For the latest news and weather information, click on the appropriate button below! News information is provided by CSUSB. It is usually bright and sunny at CSUSB with occasional winds and very little rain.  Weather information is provided by Weather Underground.</string>
+    <string name="newsandweatherCSUSBNews">CSUSB Campus News</string>
+    <string name="newsandweatherCSUSBWeather">CSUSB Campus Weather</string>
+    <string name="otherResourcesNewsAndWeather">Campus News and Weather</string>
+    <string name="cispProgramBrochures">Coming Soon, waiting on brochures from client.</string>
+
 
 </resources>

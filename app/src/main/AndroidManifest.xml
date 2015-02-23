@@ -87,6 +87,10 @@
             android:name=".studyAbroadHorizonApplication"
             android:label="@string/title_activity_study_abroad_horizon_application" >
         </activity>
+        <activity
+            android:name=".NewsAndWeather"
+            android:label="@string/title_activity_activity_news_and_weather" >
+        </activity>
     </application>
 
 </manifest>
