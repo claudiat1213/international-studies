@@ -29,6 +29,40 @@
     <string name="informationItemButtonTitle">Informational Items</string>
     <string name="testOrientationButtonTitle">Orientation and Testing</string>
 
+    <!-- Strings for Study Abroad page -->
+    <string name="study_abroad_programs_list_title">Study Abroad Programs List</string>
+    <string name="horizon_application_title">Horizon Application</string>
+    <string name="study_abroad_programs_list_body">
+        Sao Paolo, Paraty, Rio de Janeiro, Brazil\n\n
+
+        Beijing, Shanghai, Suzhou, China\n\n
+
+        San Jose, Arenal &amp; Guanacaste, Costa Rica\n\n
+
+        Otavalo, Quito, Amazonia, Patate, Cuenca, Ecuador\n\n
+
+        Cairo, Alexandria, Hurghada, Luxor, Egypt\n\n
+
+        Paris, France\n\n
+
+        New Delhi, Jaipur, Agra (The Golden Triangle), India\n\n
+
+        Dublin, Belfast, Meath, Galway, Ireland\n\n
+
+        Milan,Venice,Bologna,Florence,Rome, Italy\n\n
+
+        Amman, Jerash, Madaba, Petra, Wadi Rum, Jordan\n\n
+
+        Nairobi, Naivasha, Nakuru, Kakamega, Kisumi, Masai Mara, Kenya\n\n
+
+        London, United Kingdom\n\n
+
+        Cancun, Izamal, Merida, Valladolid, Tulum, Puerto Morelos, Mexico\n\n
+
+        Casa Blanca, Marrakes, Ouzoud, Rabat, Fes &amp; Meknes, Morocco\n\n
+
+    </string>
+
     <!-- Strings for About CISP page -->
     <string name="title_activity_about_cisp">About CISP</string>
     <string name="aboutCispHeader">About Us</string>
@@ -137,8 +171,6 @@
     <string name="campusMapButtonTitle">Campus Map</string>
     <string name="housingButtonTitle">Housing</string>
     <string name="deadlineButtonTitle">Deadlines</string>
-
-
 
     <!-- Strings for Health Insurance Page -->
     <string name="title_activity_health_insurance">Health Insurance</string>
@@ -266,12 +298,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_deadline">Deadline</string>
 
-
     <!-- Strings for Deadline Page -->
     <string name="deadlineHeader">Deadlines</string>
-
-
-
-
+    <string name="title_activity_study_abroad">StudyAbroad</string>
+    <string name="title_activity_study_abroad_programs_list">studyAbroadProgramsList</string>
+    <string name="title_activity_study_abroad_horizon_application">studyAbroadHorizonApplication</string>
 
 </resources>

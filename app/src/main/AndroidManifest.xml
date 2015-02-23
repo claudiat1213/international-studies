@@ -75,6 +75,18 @@
             android:name=".Deadline"
             android:label="@string/title_activity_deadline" >
         </activity>
+        <activity
+            android:name=".StudyAbroad"
+            android:label="@string/title_activity_study_abroad" >
+        </activity>
+        <activity
+            android:name=".studyAbroadProgramsList"
+            android:label="@string/title_activity_study_abroad_programs_list" >
+        </activity>
+        <activity
+            android:name=".studyAbroadHorizonApplication"
+            android:label="@string/title_activity_study_abroad_horizon_application" >
+        </activity>
     </application>
 
 </manifest>
