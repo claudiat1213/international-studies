@@ -327,7 +327,6 @@
 
     Applying and submitting supplementary documents (transcripts, translations, TOEFL, affidavit of support, etc.) early will allow enough time for you to be able to participate in priority registration and avoid the $25 late registration fee.</string>
     <string name="title_activity_registration_page">registrationPage</string>
-    <string name="hello_world">Hello world!</string>
 
     <!-- Strings for Registration Page -->
     <string name="registrationPageHeader">Registration</string>
@@ -340,5 +339,6 @@
     You may contact an advisor for assistance. Once you have activated your My Coyote Account, please register for your classes. You will not need to pay for your classes until the day of orientation. Please remember that you must have 12 units as an Undergraduate and /or Graduate taking prerequisites and 8 units as a Graduate taking program courses. You can see a list of classes available through My Coyote. For a complete list go to http://info001.csusb.edu/schedule/astra/schedule.jsp”. For a description of the classes see the course catalog at http://catalog.csusb.edu”.!</string>
     <string name="ge_courses_button">GE Courses</string>
     <string name="title_activity_orientation">orientation</string>
+    <string name="title_activity_csu_mentor_web_site">csuMentorWebSite</string>
 
 </resources>

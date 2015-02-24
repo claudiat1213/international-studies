@@ -1,47 +1,33 @@
 package edu.csusb.internationalstudies;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
+import android.webkit.WebView;
 
 
-public class admissionsInfo extends ActionBarActivity {
+public class csuMentorWebSite extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admissions_info);
+        setContentView(R.layout.activity_csu_mentor_web_site);
+        WebView myWebView = (WebView) findViewById(R.id.csuMentorWebView);
+        myWebView.getSettings().setLoadWithOverviewMode(true);
+        myWebView.getSettings().setUseWideViewPort(true);
+        myWebView.getSettings().setBuiltInZoomControls(true);
+        myWebView.getSettings().setSupportZoom(true);
+        myWebView.getSettings().setJavaScriptEnabled(true);
+        myWebView.loadUrl("https://secure.csumentor.edu/");
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_admissions_info, menu);
+        getMenuInflater().inflate(R.menu.menu_csu_mentor_web_site, menu);
         return true;
-    }
-
-    public void openAdmissionsUndergrad(View view) {
-        Intent intent = new Intent(this, admissionsUndergrad.class);
-        startActivity(intent);
-    }
-
-    public void openAdmissionsGrad(View view) {
-        Intent intent = new Intent(this, admissionsGrad.class);
-        startActivity(intent);
-    }
-
-    public void openAdmissionsMBA(View view) {
-        Intent intent = new Intent(this, admissionsMBA.class);
-        startActivity(intent);
-    }
-
-    public void openCSUMentor (View view) {
-        Intent intent = new Intent(this, csuMentorWebSite.class);
-        startActivity(intent);
     }
 
     @Override

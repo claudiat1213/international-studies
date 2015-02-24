@@ -115,6 +115,10 @@
             android:name=".orientation"
             android:label="@string/title_activity_orientation" >
         </activity>
+        <activity
+            android:name=".csuMentorWebSite"
+            android:label="@string/title_activity_csu_mentor_web_site" >
+        </activity>
     </application>
 
 </manifest>

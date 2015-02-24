@@ -59,5 +59,6 @@
         android:layout_alignLeft="@+id/admissionsMBA"
         android:layout_alignStart="@+id/admissionsMBA"
         android:layout_alignRight="@+id/admissionsMBA"
-        android:layout_alignEnd="@+id/admissionsMBA"/>
+        android:layout_alignEnd="@+id/admissionsMBA"
+        android:onClick="openCSUMentor"/>
 </RelativeLayout>
