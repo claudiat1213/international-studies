@@ -75,4 +75,5 @@
         android:layout_below="@+id/button8"
         android:layout_centerHorizontal="true"
         android:onClick="openRegistrationPage"/>
+    
 </RelativeLayout>
