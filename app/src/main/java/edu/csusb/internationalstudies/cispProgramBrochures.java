@@ -1,18 +1,28 @@
 package edu.csusb.internationalstudies;
 
-import android.app.Activity;
-//import android.support.v7.app.ActionBarActivity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.res.AssetManager;
+import android.net.Uri;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 
-public class cispProgramBrochures extends Activity {
+
+public class cispProgramBrochures extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cisp_program_brochures);
+        CopyReadAssests();
     }
 
 
@@ -36,5 +46,39 @@ public class cispProgramBrochures extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void CopyReadAssests() {
+        AssetManager assetManager = getAssets();
+
+        InputStream in = null;
+        OutputStream out = null;
+        File file = new File(getFilesDir(), "CSUSBMBAProgramFactSheet.pdf");
+        try {
+            in = assetManager.open("CSUSBMBAProgramFactSheet.pdf");
+            out = openFileOutput(file.getName(), Context.MODE_WORLD_READABLE);
+            copyFile(in, out);
+            in.close();
+            in = null;
+            out.flush();
+            out.close();
+            out = null;
+        }catch (Exception e) {
+            Log.e("Error", e.getMessage());
+        }
+
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setDataAndType(Uri.parse("file://" + getFilesDir() + "/CSUSBMBAProgramFactSheet.pdf"), "application/pdf");
+
+        startActivity(intent);
+    }
+
+    private void copyFile(InputStream in, OutputStream out) throws IOException
+    {
+        byte[] buffer = new byte[1024];
+        int read;
+        while ((read = in.read(buffer)) != -1) {
+            out.write(buffer, 0, read);
+        }
     }
 }

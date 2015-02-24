@@ -43,6 +43,7 @@
         android:text="@string/testOrientationButtonTitle"
         android:id="@+id/testOrientationButton"
         android:layout_below="@+id/informationItemButton"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="openOrientation"/>
 
 </RelativeLayout>

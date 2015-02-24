@@ -164,4 +164,13 @@
 
     </TableLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deadlineDescription"
+        android:id="@+id/deadlineDescription"
+        android:layout_below="@+id/deadlineTable"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
 </RelativeLayout>

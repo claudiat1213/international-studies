@@ -107,6 +107,14 @@
             android:name=".admissionsMBA"
             android:label="@string/title_activity_admissions_mb" >
         </activity>
+        <activity
+            android:name=".registrationPage"
+            android:label="@string/title_activity_registration_page" >
+        </activity>
+        <activity
+            android:name=".orientation"
+            android:label="@string/title_activity_orientation" >
+        </activity>
     </application>
 
 </manifest>

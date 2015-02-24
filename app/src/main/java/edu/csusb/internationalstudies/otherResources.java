@@ -45,6 +45,16 @@ public class otherResources extends Activity {
         startActivity(intent);
     }
 
+    public void openDeadline (View view) {
+        Intent intent = new Intent(this, Deadline.class);
+        startActivity(intent);
+    }
+
+    public void openRegistrationPage (View view) {
+        Intent intent = new Intent(this, registrationPage.class);
+        startActivity(intent);
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
