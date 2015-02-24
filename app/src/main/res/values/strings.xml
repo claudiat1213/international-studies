@@ -32,8 +32,7 @@
     <!-- Strings for Study Abroad page -->
     <string name="study_abroad_programs_list_title">Study Abroad Programs List</string>
     <string name="horizon_application_title">Horizon Application</string>
-    <string name="study_abroad_programs_list_body">
-        Sao Paolo, Paraty, Rio de Janeiro, Brazil\n\n
+    <string name="study_abroad_programs_list_body">        Sao Paolo, Paraty, Rio de Janeiro, Brazil\n\n
 
         Beijing, Shanghai, Suzhou, China\n\n
 
@@ -59,9 +58,7 @@
 
         Cancun, Izamal, Merida, Valladolid, Tulum, Puerto Morelos, Mexico\n\n
 
-        Casa Blanca, Marrakes, Ouzoud, Rabat, Fes &amp; Meknes, Morocco\n\n
-
-    </string>
+        Casa Blanca, Marrakes, Ouzoud, Rabat, Fes &amp; Meknes, Morocco\n\n</string>
 
     <!-- Strings for About CISP page -->
     <string name="title_activity_about_cisp">About CISP</string>
@@ -171,8 +168,6 @@
     <string name="campusMapButtonTitle">Campus Map</string>
     <string name="housingButtonTitle">Housing</string>
     <string name="deadlineButtonTitle">Deadlines</string>
-
-
 
     <!-- Strings for Health Insurance Page -->
     <string name="title_activity_health_insurance">Health Insurance</string>
@@ -298,9 +293,6 @@
     <string name="cispBrochuresButton">CISP Brochures</string>
     <string name="title_activity_second_deadline">secondDeadline</string>
     <string name="title_activity_deadline">Deadline</string>
-
-    <!-- Strings for Deadline Page -->
-    <string name="deadlineHeader">Deadlines</string>
     <string name="title_activity_study_abroad">StudyAbroad</string>
     <string name="title_activity_study_abroad_programs_list">studyAbroadProgramsList</string>
     <string name="title_activity_study_abroad_horizon_application">studyAbroadHorizonApplication</string>
@@ -324,5 +316,24 @@
     <string name="title_activity_admissions_undergrad">Undergraduate</string>
     <string name="title_activity_admissions_grad">Graduate</string>
     <string name="title_activity_admissions_mb">MBA</string>
+
+    <!-- Strings for Deadline Page -->
+    <string name="deadlineHeader">Deadlines</string>
+    <string name="deadlineDescription">The priority filing period for fall applications is Oct. 1 through Nov. 30 in the year prior to when you will attend.
+    If you plan on beginning coursework at the university in the fall of 2009, you would apply by Nov. 30, 2008, to be considered in the priority filing period.
+    Applications will not be accepted for the fall quarter after July 1. Currently, Cal State San Bernardino accepts applications after the Priority filing period.
+    The priority filing period for winter applications is June 1 - 30 and for spring applications, Aug. 1-31. Applications will not be accepted after Nov. 1 for winter or after Feb. 1 for spring.
+
+    Applying and submitting supplementary documents (transcripts, translations, TOEFL, affidavit of support, etc.) early will allow enough time for you to be able to participate in priority registration and avoid the $25 late registration fee.</string>
+    <string name="title_activity_registration_page">registrationPage</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Strings for Registration Page -->
+    <string name="registrationPageHeader">Registration</string>
+    <string name="importantRegistrationHeader">Important!</string>
+    <string name="importantRegistrationDescription">Classes are filling up quickly. Please try to register as soon as possible.
+    If you aren’t able to register for classes, you will have to defer your attendance and may possibly have to return to your home country.
+    If you need any help registering, please contact the staff at the Center for International Studies and Programs at</string>
+
 
 </resources>

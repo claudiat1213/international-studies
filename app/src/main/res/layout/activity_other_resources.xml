@@ -52,7 +52,8 @@
         android:id="@+id/deadlineButton"
         android:layout_below="@+id/housingButton"
         android:layout_centerHorizontal="true"
-        android:text="@string/deadlineButtonTitle" />
+        android:text="@string/deadlineButtonTitle"
+        android:onClick="openDeadline" />
 
     <Button
         android:layout_width="wrap_content"
