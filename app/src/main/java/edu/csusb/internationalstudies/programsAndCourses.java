@@ -34,6 +34,12 @@ public class programsAndCourses extends Activity {
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
+    public void openGeCourses(View view) {
+        Uri uri = Uri.parse("https://acsweb.csusb.edu/schedule/astra/schedule.jsp");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -48,4 +54,6 @@ public class programsAndCourses extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
