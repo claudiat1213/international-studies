@@ -334,6 +334,9 @@
     <string name="importantRegistrationDescription">Classes are filling up quickly. Please try to register as soon as possible.
     If you aren’t able to register for classes, you will have to defer your attendance and may possibly have to return to your home country.
     If you need any help registering, please contact the staff at the Center for International Studies and Programs at</string>
+    <string name="otherRegistrationDescription">You may register online through your student account, “MyCoyote”. For information on activating your “MyCoyote student account”, go to http://mycoyote.csusb.edu.
+    You don’t need to pay any fees or tuition to be able to register. Tuition may be paid on the day of orientation. Be advised that very likely, you will need some help in choosing your classes.
+    You may contact an advisor for assistance. Once you have activated your My Coyote Account, please register for your classes. You will not need to pay for your classes until the day of orientation. Please remember that you must have 12 units as an Undergraduate and /or Graduate taking prerequisites and 8 units as a Graduate taking program courses. You can see a list of classes available through My Coyote. For a complete list go to http://info001.csusb.edu/schedule/astra/schedule.jsp”. For a description of the classes see the course catalog at http://catalog.csusb.edu”.!</string>
     <string name="ge_courses_button">GE Courses</string>
     <string name="title_activity_orientation">orientation</string>
 
