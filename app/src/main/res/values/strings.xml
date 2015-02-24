@@ -335,6 +335,6 @@
     If you aren’t able to register for classes, you will have to defer your attendance and may possibly have to return to your home country.
     If you need any help registering, please contact the staff at the Center for International Studies and Programs at</string>
     <string name="ge_courses_button">GE Courses</string>
-
+    <string name="title_activity_orientation">orientation</string>
 
 </resources>
