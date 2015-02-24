@@ -6,9 +6,6 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="edu.csusb.internationalstudies.studyAbroadHorizonApplication">
 
-    <TextView android:text="@string/horizon_application_title" android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>

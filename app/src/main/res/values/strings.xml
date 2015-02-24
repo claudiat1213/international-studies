@@ -30,35 +30,16 @@
     <string name="testOrientationButtonTitle">Orientation and Testing</string>
 
     <!-- Strings for Study Abroad page -->
-    <string name="study_abroad_programs_list_title">Study Abroad Programs List</string>
-    <string name="horizon_application_title">Horizon Application</string>
-    <string name="study_abroad_programs_list_body">        Sao Paolo, Paraty, Rio de Janeiro, Brazil\n\n
+    <string name="studyAbroad_title">Welcome to Study Abroad</string>
+    <string name="studyAbroad_programsButton">Browse Programs</string>
+    <string name="studyAbroad_applicationButton">Horizon Application</string>
+    <string name="studyAbroad_body">
+        CSUSB students can experience the opportunity to study abroad.
+        The focus of this page is to provide students with the necessary
+        information to advise them in selecting the best study abroad program
+        which will complement their educational and career goals.
+    </string>
 
-        Beijing, Shanghai, Suzhou, China\n\n
-
-        San Jose, Arenal &amp; Guanacaste, Costa Rica\n\n
-
-        Otavalo, Quito, Amazonia, Patate, Cuenca, Ecuador\n\n
-
-        Cairo, Alexandria, Hurghada, Luxor, Egypt\n\n
-
-        Paris, France\n\n
-
-        New Delhi, Jaipur, Agra (The Golden Triangle), India\n\n
-
-        Dublin, Belfast, Meath, Galway, Ireland\n\n
-
-        Milan,Venice,Bologna,Florence,Rome, Italy\n\n
-
-        Amman, Jerash, Madaba, Petra, Wadi Rum, Jordan\n\n
-
-        Nairobi, Naivasha, Nakuru, Kakamega, Kisumi, Masai Mara, Kenya\n\n
-
-        London, United Kingdom\n\n
-
-        Cancun, Izamal, Merida, Valladolid, Tulum, Puerto Morelos, Mexico\n\n
-
-        Casa Blanca, Marrakes, Ouzoud, Rabat, Fes &amp; Meknes, Morocco\n\n</string>
 
     <!-- Strings for About CISP page -->
     <string name="title_activity_about_cisp">About CISP</string>
@@ -169,6 +150,8 @@
     <string name="housingButtonTitle">Housing</string>
     <string name="deadlineButtonTitle">Deadlines</string>
     <string name="registrationButton">Registration</string>
+
+
 
     <!-- Strings for Health Insurance Page -->
     <string name="title_activity_health_insurance">Health Insurance</string>
@@ -293,7 +276,11 @@
     <string name="title_activity_cisp_program_brochures">CISP Program Brochures</string>
     <string name="cispBrochuresButton">CISP Brochures</string>
     <string name="title_activity_second_deadline">secondDeadline</string>
+    <string name="hello_world">Hello world!</string>
     <string name="title_activity_deadline">Deadline</string>
+
+    <!-- Strings for Deadline Page -->
+
     <string name="title_activity_study_abroad">StudyAbroad</string>
     <string name="title_activity_study_abroad_programs_list">studyAbroadProgramsList</string>
     <string name="title_activity_study_abroad_horizon_application">studyAbroadHorizonApplication</string>

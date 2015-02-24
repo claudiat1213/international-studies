@@ -1,8 +1,8 @@
 package edu.csusb.internationalstudies;
 
-import android.app.Activity;
+
 //import android.content.Context;
-//import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 //import android.view.Display;
 import android.view.Menu;
@@ -11,7 +11,7 @@ import android.view.MenuItem;
 import android.webkit.WebView;
 
 
-public class housingOnCampusWebSite extends Activity {
+public class housingOnCampusWebSite extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
