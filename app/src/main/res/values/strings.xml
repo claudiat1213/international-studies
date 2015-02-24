@@ -168,6 +168,7 @@
     <string name="campusMapButtonTitle">Campus Map</string>
     <string name="housingButtonTitle">Housing</string>
     <string name="deadlineButtonTitle">Deadlines</string>
+    <string name="registrationButton">Registration</string>
 
     <!-- Strings for Health Insurance Page -->
     <string name="title_activity_health_insurance">Health Insurance</string>

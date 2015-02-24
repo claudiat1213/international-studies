@@ -66,4 +66,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:onClick="openNewsAndWeather" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrationButton"
+        android:id="@+id/registrationButton"
+        android:layout_below="@+id/button8"
+        android:layout_centerHorizontal="true"
+        android:onClick="openRegistrationPage"/>
 </RelativeLayout>
