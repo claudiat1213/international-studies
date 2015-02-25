@@ -1,5 +1,6 @@
 package edu.csusb.internationalstudies;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
@@ -16,7 +17,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 
-public class admissionsMBA extends ActionBarActivity {
+public class admissionsMBA extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

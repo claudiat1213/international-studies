@@ -1,5 +1,6 @@
 package edu.csusb.internationalstudies;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
@@ -17,7 +18,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 
-public class campusMap extends ActionBarActivity {
+public class campusMap extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

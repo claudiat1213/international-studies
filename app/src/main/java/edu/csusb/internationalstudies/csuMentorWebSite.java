@@ -1,5 +1,6 @@
 package edu.csusb.internationalstudies;
 
+import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -7,7 +8,7 @@ import android.view.MenuItem;
 import android.webkit.WebView;
 
 
-public class csuMentorWebSite extends ActionBarActivity {
+public class csuMentorWebSite extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

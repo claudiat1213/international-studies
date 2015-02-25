@@ -2,6 +2,7 @@ package edu.csusb.internationalstudies;
 
 
 //import android.content.Context;
+import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 //import android.view.Display;
@@ -11,7 +12,7 @@ import android.view.MenuItem;
 import android.webkit.WebView;
 
 
-public class housingOnCampusWebSite extends ActionBarActivity {
+public class housingOnCampusWebSite extends Activity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

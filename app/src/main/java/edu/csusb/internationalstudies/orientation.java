@@ -1,12 +1,13 @@
 package edu.csusb.internationalstudies;
 
+import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class orientation extends ActionBarActivity {
+public class orientation extends Activity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
