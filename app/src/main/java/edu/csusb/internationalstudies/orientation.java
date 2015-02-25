@@ -34,6 +34,11 @@ public class orientation extends ActionBarActivity {
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
+    public void openTests(View view) {
+        Uri uri = Uri.parse("http://www.ugs.csusb.edu/testing/eptelmfaq.html");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

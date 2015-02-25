@@ -34,7 +34,7 @@ public class programsAndCourses extends ActionBarActivity {
         startActivity(intent);
     }
     public void openGeCourses(View view) {
-        Uri uri = Uri.parse("https://acsweb.csusb.edu/schedule/astra/schedule.jsp");
+        Uri uri = Uri.parse("http://www.ugs.csusb.edu/advising/ge.html");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
