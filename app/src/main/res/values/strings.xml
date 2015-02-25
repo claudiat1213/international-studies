@@ -327,5 +327,8 @@
     <string name="ge_courses_button">GE Courses</string>
     <string name="title_activity_orientation">orientation</string>
     <string name="title_activity_csu_mentor_web_site">csuMentorWebSite</string>
+    <string name="orientation_info_button">Orientation Information</string>
+    <string name="vital_tech_vids_button">Vital Technology Videos(how to use MyCoyote, how to add or drop a class)</string>
+    <string name="orientation_info_textview">Orientation and MyCoyote Information</string>
 
 </resources>

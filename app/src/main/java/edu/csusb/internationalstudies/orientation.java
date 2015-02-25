@@ -1,9 +1,12 @@
 package edu.csusb.internationalstudies;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class orientation extends ActionBarActivity {
@@ -21,6 +24,16 @@ public class orientation extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_orientation, menu);
         return true;
     }
+    public void openOrientationInfo(View view) {
+        Uri uri = Uri.parse("http://international.csusb.edu/Pages/Admissions/Orientation.aspx");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+    public void openVitalVideos(View view) {
+        Uri uri = Uri.parse("http://international.csusb.edu/Pages/Admissions/TrainingVideo.aspx");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -36,4 +49,5 @@ public class orientation extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }
