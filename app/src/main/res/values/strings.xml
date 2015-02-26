@@ -340,4 +340,9 @@
     from abroad to study in the United States. Exchanges are critical to developing mutual understanding and respect, building leadership abroad, fostering and appreciation for the U.S.,
     and investing in the future relationship between Americans and people around the world. \n \n Dates for the IEW 2011 are November 14-18. Please visit http://eca.state.gov/programs-initiatives/international-education-week/ (National International Eduction Week) for more details.</string>
 
+
+    <!--Strings for Drawer Layout -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
 </resources>
