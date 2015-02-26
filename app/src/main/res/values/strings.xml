@@ -33,13 +33,10 @@
     <string name="studyAbroad_title">Welcome to Study Abroad</string>
     <string name="studyAbroad_programsButton">Browse Programs</string>
     <string name="studyAbroad_applicationButton">Horizon Application</string>
-    <string name="studyAbroad_body">
-        CSUSB students can experience the opportunity to study abroad.
+    <string name="studyAbroad_body">        CSUSB students can experience the opportunity to study abroad.
         The focus of this page is to provide students with the necessary
         information to advise them in selecting the best study abroad program
-        which will complement their educational and career goals.
-    </string>
-
+        which will complement their educational and career goals.</string>
 
     <!-- Strings for About CISP page -->
     <string name="title_activity_about_cisp">About CISP</string>
@@ -150,7 +147,7 @@
     <string name="housingButtonTitle">Housing</string>
     <string name="deadlineButtonTitle">Deadlines</string>
     <string name="registrationButton">Registration</string>
-
+    <string name="eventsButton">Events</string>
 
 
     <!-- Strings for Health Insurance Page -->
@@ -331,5 +328,16 @@
     <string name="vital_tech_vids_button">Vital Technology Videos(how to use MyCoyote, how to add or drop a class)</string>
     <string name="orientation_info_textview">Orientation and MyCoyote Information</string>
     <string name="EPT_ELM_button">EPT and ELM Tests</string>
+
+    <!-- Strings for Events Page -->
+
+    <string name="title_activity_events_page">eventsPage</string>
+    <string name="eventsTitle">Events</string>
+    <string name="eventsDescription"> joint initiative of the U.S. Departments of State and Education, International Education Week (IEW) was first held in
+    2000 and today is celebrated in more than 100 countries worldwide. Here at California State University San Bernardino we have been a part of these celebrations since the beginning.
+    IEW is an opportunity to celebrate the benefits of international education. This annual initiative aims to promote international understanding and build support for international
+    educational exchange by encouraging the development of programs that prepare Americans to live and work in a global environment and attract future leaders
+    from abroad to study in the United States. Exchanges are critical to developing mutual understanding and respect, building leadership abroad, fostering and appreciation for the U.S.,
+    and investing in the future relationship between Americans and people around the world. \n \n Dates for the IEW 2011 are November 14-18. Please visit http://eca.state.gov/programs-initiatives/international-education-week/ (National International Eduction Week) for more details.</string>
 
 </resources>

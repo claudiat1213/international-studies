@@ -54,6 +54,11 @@ public class otherResources extends ActionBarActivity {
         startActivity(intent);
     }
 
+    public void openEventsPage (View view) {
+        Intent intent = new Intent(this, eventsPage.class);
+        startActivity(intent);
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will

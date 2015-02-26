@@ -74,6 +74,14 @@
         android:id="@+id/registrationButton"
         android:layout_below="@+id/button8"
         android:layout_centerHorizontal="true"
-        android:onClick="openRegistrationPage"/>
-    
+        android:onClick="openRegistrationPage" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eventsButton"
+        android:id="@+id/eventsButton"
+        android:layout_below="@+id/registrationButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="openEventsPage" />
 </RelativeLayout>
