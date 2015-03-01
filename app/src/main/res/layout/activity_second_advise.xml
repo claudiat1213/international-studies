@@ -7,15 +7,27 @@
     tools:context="edu.csusb.internationalstudies.secondAdvise">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/secondAdviseHeader"
+        android:id="@+id/textView10"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/adviseParagraph"
         android:id="@+id/adviseDescrip"
         android:gravity="center"
         android:textSize="15sp"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/textView10"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="51dp" />
 
     <Button
         android:layout_width="match_parent"
@@ -33,9 +45,9 @@
         android:text="@string/testOrientationButtonTitle"
         android:id="@+id/testOrientationButton"
         android:onClick="openOrientation"
+        android:layout_marginBottom="114dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="57dp" />
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

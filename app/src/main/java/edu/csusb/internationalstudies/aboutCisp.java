@@ -46,10 +46,23 @@ public class aboutCisp extends ActionBarActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
+                    Intent intent = new Intent(aboutCisp.this, aboutCisp.class);
+                    startActivity(intent);
+                } else if (position == 1){
                     Intent intent = new Intent(aboutCisp.this, secondAdvise.class);
                     startActivity(intent);
-                } else {
-                    Toast.makeText(aboutCisp.this, "Time for an upgrade!", Toast.LENGTH_SHORT).show();
+                }else if (position == 2) {
+                    Intent intent = new Intent(aboutCisp.this, admissionsInfo.class);
+                    startActivity(intent);
+                }else if (position == 3) {
+                    Intent intent = new Intent(aboutCisp.this, StudyAbroad.class);
+                    startActivity(intent);
+                }else if (position == 4) {
+                    Intent intent = new Intent(aboutCisp.this, exchangeProgram.class);
+                    startActivity(intent);
+                }else if (position == 5){
+                    Intent intent = new Intent(aboutCisp.this, otherResources.class);
+                    startActivity(intent);
                 }
             }
         });
