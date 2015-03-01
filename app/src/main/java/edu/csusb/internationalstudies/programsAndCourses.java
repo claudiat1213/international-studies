@@ -24,10 +24,6 @@ public class programsAndCourses extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_programs_and_sources, menu);
         return true;
     }
-    public void startcispProgramBrochures(View view) {
-        Intent intent = new Intent(this, cispProgramBrochures.class);
-        startActivity(intent);
-    }
     public void startCourseListingsWebsite(View view) {
         Uri uri = Uri.parse("https://acsweb.csusb.edu/schedule/astra/schedule.jsp");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
