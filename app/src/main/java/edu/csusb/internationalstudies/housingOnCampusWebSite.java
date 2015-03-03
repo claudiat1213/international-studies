@@ -12,7 +12,7 @@ import android.view.MenuItem;
 import android.webkit.WebView;
 
 
-public class housingOnCampusWebSite extends Activity{
+public class housingOnCampusWebSite extends ActionBarActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

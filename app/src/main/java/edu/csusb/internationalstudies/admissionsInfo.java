@@ -9,7 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class admissionsInfo extends Activity {
+public class admissionsInfo extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

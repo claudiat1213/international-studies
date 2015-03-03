@@ -11,7 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class StudyAbroad extends Activity{
+public class StudyAbroad extends ActionBarActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

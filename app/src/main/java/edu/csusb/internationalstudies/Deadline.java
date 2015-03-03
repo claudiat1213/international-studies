@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class Deadline extends Activity{
+public class Deadline extends ActionBarActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -9,7 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class housing extends Activity {
+public class housing extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

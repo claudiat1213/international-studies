@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class cispStaff extends Activity {
+public class cispStaff extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

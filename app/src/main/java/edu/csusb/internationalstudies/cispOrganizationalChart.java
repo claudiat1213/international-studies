@@ -17,7 +17,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 
-public class cispOrganizationalChart extends Activity{
+public class cispOrganizationalChart extends ActionBarActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

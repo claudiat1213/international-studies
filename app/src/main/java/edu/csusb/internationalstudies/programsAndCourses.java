@@ -10,7 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class programsAndCourses extends Activity{
+public class programsAndCourses extends ActionBarActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

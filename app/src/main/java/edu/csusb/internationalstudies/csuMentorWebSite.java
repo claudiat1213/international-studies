@@ -8,7 +8,7 @@ import android.view.MenuItem;
 import android.webkit.WebView;
 
 
-public class csuMentorWebSite extends Activity {
+public class csuMentorWebSite extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

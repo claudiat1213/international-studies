@@ -17,7 +17,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 
-public class admissionsUndergrad extends Activity {
+public class admissionsUndergrad extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

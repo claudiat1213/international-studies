@@ -9,7 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class secondAdvise extends Activity {
+public class secondAdvise extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

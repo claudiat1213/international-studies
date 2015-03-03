@@ -18,7 +18,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 
-public class campusMap extends Activity {
+public class campusMap extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
