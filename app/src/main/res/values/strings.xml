@@ -14,7 +14,7 @@
     <string name="mainAboutCispTitle">About Us</string>
 
     <!-- Strings for Main Activity for Academic Advising -->
-    <string name="title_activity_second_advise">International Advising</string>
+    <string name="title_activity_second_advise">Academic Advising</string>
     <string name="headerAdvise">International Advising</string>
     <string name="adviseParagraph">The primary purpose of the academic
         advising program at California State University San Bernardino
@@ -186,7 +186,7 @@
             Agency and to terminate my J-1 exchange visitor status if they determine that you have
             willfully failed to comply with the insurance requirements.</b></string>
     <string name="title_activity_campus_map">campusMap</string>
-    <string name="title_activity_housing">housing</string>
+    <string name="title_activity_housing">Housing</string>
 
     <!-- Strings for Housing Page -->
     <string name="housingHeader">Housing</string>
@@ -267,7 +267,7 @@
     <string name="title_activity_national_student_exchange">National Student Exchange</string>
     <string name="exchangeFinancialAid">Exchange Program Financial Aid</string>
     <string name="programsAndCourses">Programs and Courses</string>
-    <string name="title_activity_programs_and_sources">Programs And Sources</string>
+    <string name="title_activity_programs_and_sources">Programs And Courses</string>
     <string name="courseListings">Course Listings</string>
     <string name="courseListingsHeader">Course Listings</string>
     <string name="programsAndSourcesHeader">Programs and Sources</string>
@@ -279,7 +279,7 @@
 
     <!-- Strings for Deadline Page -->
 
-    <string name="title_activity_study_abroad">StudyAbroad</string>
+    <string name="title_activity_study_abroad">Study Abroad</string>
     <string name="title_activity_study_abroad_programs_list">studyAbroadProgramsList</string>
     <string name="title_activity_study_abroad_horizon_application">studyAbroadHorizonApplication</string>
     <string name="title_activity_activity_news_and_weather">activityNewsAndWeather</string>
@@ -289,7 +289,7 @@
     <string name="newsandweatherCSUSBWeather">CSUSB Campus Weather</string>
     <string name="otherResourcesNewsAndWeather">Campus News and Weather</string>
     <string name="cispProgramBrochures">Coming Soon, waiting on brochures from client.</string>
-    <string name="title_activity_admissions_info">admissionsInfo</string>
+    <string name="title_activity_admissions_info">Admissions Info</string>
     <string name="exchangeProgram121Body">The 1+2+1 Program was started in 2001 under the joint administration of China Educational Association for International Exchange (CEAIE), the China Center for International Educational Exchange (CCIEE), and the American Association of State Colleges and Universities (AASCU), to promote cooperation and exchange between Chinese and U.S. higher education. This is our 5th year offering the 1+2+1 Program and we currently have about 100 students participating. On this page you can read some testimonials from other students in the 1+2+1 Program and see pictures of activities.</string>
     <string name="exchangeProgram121Header">1 - 2 - 1 Articulation Program</string>
 
@@ -323,7 +323,7 @@
     You don’t need to pay any fees or tuition to be able to register. Tuition may be paid on the day of orientation. Be advised that very likely, you will need some help in choosing your classes.
     You may contact an advisor for assistance. Once you have activated your My Coyote Account, please register for your classes. You will not need to pay for your classes until the day of orientation. Please remember that you must have 12 units as an Undergraduate and /or Graduate taking prerequisites and 8 units as a Graduate taking program courses. You can see a list of classes available through My Coyote. For a complete list go to http://info001.csusb.edu/schedule/astra/schedule.jsp”. For a description of the classes see the course catalog at http://catalog.csusb.edu”.!</string>
     <string name="ge_courses_button">GE Courses</string>
-    <string name="title_activity_orientation">orientation</string>
+    <string name="title_activity_orientation">Orientation and MyCoyote Info</string>
     <string name="title_activity_csu_mentor_web_site">csuMentorWebSite</string>
     <string name="orientation_info_button">Orientation Information</string>
     <string name="vital_tech_vids_button">Vital Technology Videos(how to use MyCoyote, how to add or drop a class)</string>
