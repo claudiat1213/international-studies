@@ -119,6 +119,10 @@
             android:name=".csuMentorWebSite"
             android:label="@string/title_activity_csu_mentor_web_site" >
         </activity>
+        <activity
+            android:name=".eventsPage"
+            android:label="@string/title_activity_events_page" >
+        </activity>
     </application>
 
 </manifest>

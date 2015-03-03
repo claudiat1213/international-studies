@@ -25,17 +25,13 @@ public class programsAndCourses extends Activity{
         getMenuInflater().inflate(R.menu.menu_programs_and_sources, menu);
         return true;
     }
-    public void startcispProgramBrochures(View view) {
-        Intent intent = new Intent(this, cispProgramBrochures.class);
-        startActivity(intent);
-    }
     public void startCourseListingsWebsite(View view) {
         Uri uri = Uri.parse("https://acsweb.csusb.edu/schedule/astra/schedule.jsp");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
     public void openGeCourses(View view) {
-        Uri uri = Uri.parse("https://acsweb.csusb.edu/schedule/astra/schedule.jsp");
+        Uri uri = Uri.parse("http://www.ugs.csusb.edu/advising/ge.html");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
