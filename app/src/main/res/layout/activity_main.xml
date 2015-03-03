@@ -1,82 +1,93 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
 
-
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mainTitle"
-        android:id="@+id/welcomeView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:gravity="center"
-        android:layout_alignParentTop="true"
-        android:textSize="20sp" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mainAboutCispTitle"
-        android:id="@+id/mainAboutButton"
-        android:layout_above="@+id/mainAdviseButton"
-        android:layout_centerHorizontal="true"
-        android:onClick="startAboutCisp"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mainAdviseTitle"
-        android:id="@+id/mainAdviseButton"
-        android:layout_alignBottom="@+id/mainAdmissionButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="49dp"
-        android:onClick="startSecondAdvise"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mainAdmissionsTitle"
-        android:id="@+id/mainAdmissionButton"
-        android:layout_marginTop="140dp"
-        android:layout_below="@+id/welcomeView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="openAdmissions"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mainStudyTitle"
-        android:id="@+id/mainStudyButton"
-        android:layout_below="@+id/mainAdmissionButton"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:onClick="openStudyAbroad"
-        />
+        android:layout_height="match_parent">
 
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mainExchangeTitle"
-        android:id="@+id/mainExchangeButton"
-        android:layout_below="@+id/mainStudyButton"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:onClick="startexchangeProgram" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mainAboutCispTitle"
+            android:id="@+id/mainAboutButton"
+            android:onClick="startAboutCisp"
+            android:adjustViewBounds="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="false"
+            android:layout_below="@+id/main_page_banner"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="5dp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mainAdviseTitle"
+            android:id="@+id/mainAdviseButton"
+            android:onClick="startSecondAdvise"
+            android:adjustViewBounds="true"
+            android:layout_below="@+id/mainAboutButton"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mainAdmissionsTitle"
+            android:id="@+id/mainAdmissionButton"
+            android:onClick="openAdmissions"
+            android:adjustViewBounds="true"
+            android:layout_below="@+id/mainAdviseButton"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mainOtherTitle"
-        android:id="@+id/mainOtherButton"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:onClick="openOtherResources"
-        android:layout_below="@+id/mainExchangeButton" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mainStudyTitle"
+            android:id="@+id/mainStudyButton"
+            android:onClick="openStudyAbroad"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_below="@+id/mainAdmissionButton" />
 
 
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mainExchangeTitle"
+            android:id="@+id/mainExchangeButton"
+            android:onClick="startexchangeProgram"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_below="@+id/mainStudyButton" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mainOtherTitle"
+            android:id="@+id/mainOtherButton"
+            android:onClick="openOtherResources"
+            android:adjustViewBounds="true"
+            android:layout_below="@+id/mainExchangeButton"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_page_banner"
+            android:src="@drawable/main_page"
+            android:adjustViewBounds="true" />
 
 
-</RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
