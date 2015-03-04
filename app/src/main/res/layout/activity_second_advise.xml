@@ -1,51 +1,49 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="edu.csusb.internationalstudies.secondAdvise">
+    <RelativeLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:text="@string/adviseParagraph"
-        android:id="@+id/adviseDescrip"
-        android:gravity="center"
-        android:textSize="15sp"
-        android:layout_above="@+id/informationItemButton"
-        android:layout_alignLeft="@+id/informationItemButton"
-        android:layout_alignStart="@+id/informationItemButton" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/adviseParagraph"
+            android:id="@+id/adviseDescrip"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_alignStart="@+id/informationItemButton"
+            android:layout_below="@+id/academicAdvisingImage" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:text="@string/programsAndCourses"
-        android:id="@+id/informationItemButton"
-        android:onClick="startprogramsAndCourses"
-        android:layout_above="@+id/testOrientationButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/programsAndCourses"
+            android:id="@+id/informationItemButton"
+            android:onClick="startprogramsAndCourses"
+            android:layout_below="@+id/adviseDescrip" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:text="@string/testOrientationButtonTitle"
-        android:id="@+id/testOrientationButton"
-        android:onClick="openOrientation"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/testOrientationButtonTitle"
+            android:id="@+id/testOrientationButton"
+            android:onClick="openOrientation"
+            android:layout_below="@+id/informationItemButton" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/academicAdvisingImage"
+            android:src="@drawable/academic_advising"
+            android:adjustViewBounds="true" />
 
 
-</RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
