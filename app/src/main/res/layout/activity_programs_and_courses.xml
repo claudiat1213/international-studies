@@ -2,83 +2,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
-    android:paddingBottom="16dp"
     tools:context="edu.csusb.internationalstudies.programsAndCourses">
 
     <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="1200dp"
-        android:gravity="fill">
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/courseListings"
-            android:id="@+id/button4"
+            android:id="@+id/CourseListingsButton"
             android:onClick="startCourseListingsWebsite"
-            android:layout_marginTop="30dp"
-            android:layout_below="@+id/textView3"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_below="@+id/programsCoursesImage"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="189dp" />
+            android:id="@+id/programsCoursesText"
+            android:layout_below="@+id/geCoursesButton" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/ge_courses_button"
-            android:id="@+id/button9"
+            android:id="@+id/geCoursesButton"
             android:onClick="openGeCourses"
-            android:layout_below="@+id/button4"
-            android:layout_alignLeft="@+id/textView3"
-            android:layout_alignStart="@+id/textView3"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_below="@+id/CourseListingsButton"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/programsandcoursesheader1"
-            android:id="@+id/textView11"
-            android:layout_marginTop="53dp"
+            android:id="@+id/programsCoursesText2"
             android:gravity="center"
-            android:layout_below="@+id/button9"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_below="@+id/geCoursesButton"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/programsandcoursesheader2"
-            android:id="@+id/textView12"
+            android:id="@+id/programsCoursesText3"
             android:gravity="center"
-            android:layout_gravity="center"
-            android:layout_marginTop="27dp"
-            android:layout_below="@+id/textView13"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_below="@+id/programsCoursesText2"
+            android:layout_marginTop="5dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/programsandcoursesheader3"
-            android:id="@+id/textView13"
+            android:id="@+id/programsCoursesText4"
             android:gravity="center"
-            android:layout_marginTop="23dp"
-            android:layout_below="@+id/textView11"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/programsCoursesText3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/programsCoursesImage"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/academic_advising"
+            android:adjustViewBounds="true" />
 
     </RelativeLayout>
 </ScrollView>
