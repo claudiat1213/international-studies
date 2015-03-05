@@ -1,4 +1,3 @@
-
 <android.support.v4.widget.DrawerLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +6,9 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         tools:context="edu.csusb.internationalstudies.aboutCisp"
         android:id="@+id/drawer_layout">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -15,27 +17,17 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         android:paddingBottom="@dimen/activity_vertical_margin">
 
-    <TextView
-        android:text="@string/aboutCispHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/aboutCispHeader"
-        android:textSize="20sp" />
-
-    <TextView
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/aboutCispDescrip"
         android:id="@+id/aboutCispDescrip"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="5dp"
         android:gravity="center"
         android:textSize="15sp"
-        android:layout_below="@+id/aboutCispHeader"
-        android:layout_alignLeft="@+id/organizationChartButton"
-        android:layout_alignStart="@+id/organizationChartButton" />
+        android:layout_below="@+id/aboutCispHeaderImage"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 
     <Button
         android:layout_width="match_parent"
@@ -43,10 +35,10 @@
         android:text="@string/organizationalChartButtonTitle"
         android:id="@+id/organizationChartButton"
         android:onClick="openChartPDF"
-        android:layout_marginTop="66dp"
+        android:layout_marginTop="5dp"
         android:layout_below="@+id/aboutCispDescrip"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button" />
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 
     <Button
         android:layout_width="match_parent"
@@ -55,10 +47,18 @@
         android:id="@+id/button"
         android:onClick="openCispStaff"
         android:layout_below="@+id/organizationChartButton"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/other_resources"
+        android:id="@+id/aboutCispHeaderImage"
+        android:adjustViewBounds="true" />
 
 
 </RelativeLayout>
+</ScrollView>
     <ListView
         android:id="@+id/navList"
         android:layout_width="200sp"
