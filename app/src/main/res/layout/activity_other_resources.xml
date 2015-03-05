@@ -7,6 +7,10 @@
     tools:context="edu.csusb.internationalstudies.otherResources"
     android:id="@+id/drawer_layout">
 
+ <ScrollView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -99,6 +103,8 @@
         android:layout_centerHorizontal="true"
         android:contentDescription="@string/otherResourcesHeader" />
     </RelativeLayout>
+ </ScrollView>
+
     <ListView
         android:id="@+id/navList"
         android:layout_width="200sp"
