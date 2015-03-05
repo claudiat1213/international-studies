@@ -92,12 +92,6 @@
             android:configChanges="keyboardHidden|orientation" >
         </activity>
         <activity
-            android:name=".cispProgramBrochures"
-            android:label="@string/title_activity_cisp_program_brochures"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden|orientation" >
-        </activity>
-        <activity
             android:name=".Deadline"
             android:label="@string/title_activity_deadline"
             android:screenOrientation="portrait"
