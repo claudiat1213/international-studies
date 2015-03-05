@@ -26,9 +26,9 @@
             android:text="@string/adviseParagraph"
             android:id="@+id/adviseDescrip"
             android:gravity="center"
-            android:textSize="15sp"
+            android:textSize="@dimen/descripTextSize"
             android:layout_marginTop="5dp"
-            android:layout_below="@+id/secondAdviseHeaderImage" />
+            android:layout_below="@+id/testOrientationButton" />
 
         <Button
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:text="@string/programsAndCourses"
             android:id="@+id/informationItemButton"
             android:onClick="startprogramsAndCourses"
-            android:layout_below="@+id/adviseDescrip"
+            android:layout_below="@+id/secondAdviseHeaderImage"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp" />

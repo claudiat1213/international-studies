@@ -27,13 +27,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/programsCoursesText"
-            android:layout_below="@+id/geCoursesButton" />
-
-        <Button
+            <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/ge_courses_button"
@@ -52,7 +46,8 @@
             android:layout_below="@+id/geCoursesButton"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp" />
+            android:layout_marginRight="16dp"
+            android:textSize="@dimen/descripTextSize"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -63,7 +58,8 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_below="@+id/programsCoursesText2"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:textSize="@dimen/descripTextSize"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -74,7 +70,8 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
-            android:layout_below="@+id/programsCoursesText3" />
+            android:layout_below="@+id/programsCoursesText3"
+            android:textSize="@dimen/descripTextSize"/>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -82,7 +79,8 @@
             android:id="@+id/programsCoursesImage"
             android:layout_centerHorizontal="true"
             android:src="@drawable/academic_advising"
-            android:adjustViewBounds="true" />
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/academicAdvisingImage" />
 
     </RelativeLayout>
 </ScrollView>

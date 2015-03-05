@@ -25,7 +25,7 @@
             android:id="@+id/cispStaffHeader"
             android:gravity="center_horizontal"
             android:paddingBottom="10sp"
-            android:textSize="20sp" />
+            android:textSize="@dimen/infoTextsize" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:autoLink="all"
-            android:textSize="15sp" />
+            android:textSize="@dimen/descripTextSize" />
 
 
 
