@@ -24,7 +24,8 @@
             android:onClick="startCourseListingsWebsite"
             android:layout_below="@+id/programsCoursesImage"
             android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp" />
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="5dp" />
 
         <TextView
             android:layout_width="wrap_content"

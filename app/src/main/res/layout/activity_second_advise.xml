@@ -27,8 +27,8 @@
             android:id="@+id/adviseDescrip"
             android:gravity="center"
             android:textSize="15sp"
-            android:layout_below="@+id/academicAdvisingImage"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/secondAdviseHeaderImage" />
 
         <Button
             android:layout_width="match_parent"
@@ -51,6 +51,12 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp" />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/academic_advising"
+            android:id="@+id/secondAdviseHeaderImage"
+            android:adjustViewBounds="true" />
 
 
 
