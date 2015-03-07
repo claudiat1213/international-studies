@@ -1,7 +1,5 @@
 package edu.csusb.internationalstudies;
 
-
-import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.net.Uri;
@@ -141,6 +139,11 @@ public class StudyAbroad extends ActionBarActivity{
     public void openStudyAbroadProgramsList(View view) {
         Uri uri = Uri.parse("https://csusb-horizons.symplicity.com/index.php?s=programs&au=&ck=");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+
+    public void openGilmanScholarship(View view) {
+        Intent intent = new Intent(this, StudyAbroadGilmanScholarship.class);
         startActivity(intent);
     }
 }

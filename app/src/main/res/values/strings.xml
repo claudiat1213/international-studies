@@ -35,10 +35,23 @@
     <string name="studyAbroad_title">Welcome to Study Abroad</string>
     <string name="studyAbroad_programsButton">Browse Programs</string>
     <string name="studyAbroad_applicationButton">Horizon Application</string>
+    <string name="studyAbroad_scholarshipButton">Gilman Scholarship</string>
     <string name="studyAbroad_body">        CSUSB students can experience the opportunity to study abroad.
         The focus of this page is to provide students with the necessary
         information to advise them in selecting the best study abroad program
         which will complement their educational and career goals.</string>
+    <string name="studyAbroad_gilmanScholarship_body">The Gilman Scholarship
+        for Study Abroad. For PELL Grant recipients in an accepted study abroad program.
+        Recipients can receive up to either $3000 for summer programs or $5000 for semester
+        or year programs.\n\n
+
+        The Gilman Program offers scholarship for students with financial need who have been
+        under-represented in education abroad. Award amounts will vary depending on the length
+        of study. The average award is $4000. Undergraduate students who are receiving federal
+        Pell Grant funding at 2-year or 4-year colleges or universities are eligible to apply.
+        Study Abroad students are eligible to receive an additional $3,000 for studying for the
+        Critical Need Languages(Arabic, Chinese, Turkic, Persian, Indic, Korean, and Russian).
+    </string>
 
     <!-- Strings for About CISP page -->
     <string name="title_activity_about_cisp">About CISP</string>
@@ -150,7 +163,6 @@
     <string name="deadlineButtonTitle">Deadlines</string>
     <string name="registrationButton">Registration</string>
     <string name="eventsButton">Events</string>
-
 
     <!-- Strings for Health Insurance Page -->
     <string name="title_activity_health_insurance">Health Insurance</string>
@@ -342,12 +354,12 @@
     from abroad to study in the United States. Exchanges are critical to developing mutual understanding and respect, building leadership abroad, fostering and appreciation for the U.S.,
     and investing in the future relationship between Americans and people around the world. \n \n Dates for the IEW 2011 are November 14-18. Please visit http://eca.state.gov/programs-initiatives/international-education-week/ (National International Eduction Week) for more details.</string>
 
-
-    <!--Strings for Drawer Layout -->
+    <!-- Strings for Drawer Layout -->
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="programsandcoursesheader1">California State University, San Bernardino operates on the quarter system. The fall, winter and spring terms each consist of 10 weeks of instruction plus a final exam week. The university also offers a summer quarter allowing students to accelerate their progress and take summer courses. Summer quarter has overlapping five-week and one 10-week terms.</string>
     <string name="programsandcoursesheader2">Most lecture/discussion courses are offered for four units of credit and meet four hours per week. Each unit of credit typically requires two hours of out-of-class study and preparation in addition to the hour of direct instruction in the class. Laboratories and activity-based courses, such as studio art, music, physical education, computer science, etc. meet for 2-3 hours of instruction a week for each unit of credit. Students transferring from a semester system campus should note semester courses are five weeks longer (15 weeks versus 10) so that a quarter unit is equal to 2/3 of a semester unit. (Thus, three semester units are equivalent to 4.5 quarter units.)</string>
     <string name="programsandcoursesheader3">The total number of quarter units required for graduation varies from a minimum of 180 for the Bachelor of Arts degree to 198 units for the Bachelor of Science. Students planning to graduate in four years need to take an average of 15 units per quarter to reach 180 units. Master\'s degrees require a minimum of 45 units, but some professional degrees, such as the M.S.W. in Social Work and M.S. in Psychology, have licensing and/or accreditation standards demanding up to 90 units. The Ed.D. in Educational Leadership requires 92 units for completion.</string>
+    <string name="title_activity_study_abroad_gilman_scholarship">StudyAbroadGilmanScholarship</string>
 
 </resources>
