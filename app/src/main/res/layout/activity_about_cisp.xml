@@ -29,32 +29,32 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/organizationalChartButtonTitle"
-        android:id="@+id/organizationChartButton"
-        android:onClick="openChartPDF"
-        android:layout_marginTop="5dp"
-        android:layout_below="@+id/aboutCispHeaderImage"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp" />
 
-    <Button
-        android:layout_width="match_parent"
+    <ImageButton
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/cispStaff"
+        android:src="@drawable/cisp_staff_button2"
         android:id="@+id/button"
         android:onClick="openCispStaff"
         android:layout_below="@+id/organizationChartButton"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/other_resources"
         android:id="@+id/aboutCispHeaderImage"
         android:adjustViewBounds="true" />
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cisp_organizational_chart_button"
+        android:id="@+id/organizationChartButton"
+        android:layout_below="@+id/aboutCispHeaderImage"
+        android:onClick="openChartPDF"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 
 
 </RelativeLayout>
