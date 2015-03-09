@@ -13,7 +13,7 @@
         android:layout_height="match_parent">
 
 
-        <Button
+        <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/mainAboutCispTitle"
@@ -25,8 +25,9 @@
             android:layout_below="@+id/main_page_banner"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginTop="5dp" />
-        <Button
+            android:layout_marginTop="0dp"
+            android:src="@drawable/about_us_button"/>
+        <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/mainAdviseTitle"
@@ -35,8 +36,9 @@
             android:adjustViewBounds="true"
             android:layout_below="@+id/mainAboutButton"
             android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp" />
-        <Button
+            android:layout_marginRight="16dp"
+            android:src="@drawable/academic_advising_button"/>
+        <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/mainAdmissionsTitle"
@@ -45,9 +47,10 @@
             android:adjustViewBounds="true"
             android:layout_below="@+id/mainAdviseButton"
             android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp" />
+            android:layout_marginRight="16dp"
+            android:src="@drawable/admissions_button"/>
 
-        <Button
+        <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/mainStudyTitle"
@@ -56,10 +59,11 @@
             android:adjustViewBounds="true"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_below="@+id/mainAdmissionButton" />
+            android:layout_below="@+id/mainAdmissionButton"
+            android:src="@drawable/study_abroad_button"/>
 
 
-        <Button
+        <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/mainExchangeTitle"
@@ -68,9 +72,10 @@
             android:adjustViewBounds="true"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_below="@+id/mainStudyButton" />
+            android:layout_below="@+id/mainStudyButton"
+            android:src="@drawable/exchange_program_button"/>
 
-        <Button
+        <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/mainOtherTitle"
@@ -79,7 +84,8 @@
             android:adjustViewBounds="true"
             android:layout_below="@+id/mainExchangeButton"
             android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp" />
+            android:layout_marginRight="16dp"
+            android:src="@drawable/other_resources_button"/>
 
         <ImageView
             android:layout_width="wrap_content"
