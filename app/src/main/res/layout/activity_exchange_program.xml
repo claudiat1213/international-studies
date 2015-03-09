@@ -22,10 +22,12 @@
             android:text="@string/ExchangeprogramContent"
             android:id="@+id/textView2"
             android:gravity="center"
-            android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="25dp"
-            android:textSize="@dimen/descripTextSize"/>
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/descripTextSize"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_below="@+id/exchangeProgramHeaderImage" />
 
         <Button
             android:layout_width="match_parent"
@@ -35,9 +37,11 @@
             android:onClick="startNseWebsite"
             android:gravity="center"
             android:paddingTop="10dp"
-            android:layout_below="@+id/button3"
+            android:layout_below="@+id/textView2"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
 
         <Button
             android:layout_width="match_parent"
@@ -46,34 +50,25 @@
             android:id="@+id/button3"
             android:gravity="center"
             android:onClick="startCSUSBNseWebsite"
-            android:layout_marginTop="28dp"
-            android:layout_below="@+id/textView2"
+            android:layout_below="@+id/button2"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/ExchangePrograms"
-            android:id="@+id/textView"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:gravity="center"
-            android:textSize="@dimen/infoTextsize"/>
-
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/exchangeProgram121Header"
             android:id="@+id/textView7"
-            android:layout_marginTop="42dp"
-            android:gravity="center"
-            android:layout_below="@+id/button2"
+                android:gravity="center"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:textSize="@dimen/infoTextsize"/>
+            android:textSize="@dimen/infoTextsize"
+            android:layout_below="@+id/button3"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -83,9 +78,17 @@
             android:layout_below="@+id/textView7"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="30dp"
             android:gravity="center"
-            android:textSize="@dimen/descripTextSize"/>
+            android:textSize="@dimen/descripTextSize"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/exchange_program"
+            android:id="@+id/exchangeProgramHeaderImage"/>
 </RelativeLayout>
 </ScrollView>
     <ListView

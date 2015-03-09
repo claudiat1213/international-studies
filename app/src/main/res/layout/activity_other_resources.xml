@@ -28,33 +28,39 @@
         android:textSize="15sp" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/healthInsuranceButtonTitle"
         android:id="@+id/healthInsuranceButtonTitle"
-        android:layout_below="@+id/otherResourceHeader"
+        android:layout_below="@+id/otherResourcesHeaderImage"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp"
-        android:onClick="openHealthInsurance"/>
+        android:layout_marginTop="10dp"
+        android:onClick="openHealthInsurance"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/campusMapButtonTitle"
         android:id="@+id/campusMapButton"
         android:layout_below="@+id/healthInsuranceButtonTitle"
         android:layout_centerHorizontal="true"
-        android:onClick="openCampusMap"/>
+        android:onClick="openCampusMap"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/housingButtonTitle"
         android:id="@+id/housingButton"
         android:layout_below="@+id/campusMapButton"
         android:layout_centerHorizontal="true"
         android:onClick="openHousingPage"
-        android:nestedScrollingEnabled="true" />
+        android:nestedScrollingEnabled="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 
     <Button
         android:layout_width="fill_parent"
@@ -63,19 +69,19 @@
         android:layout_below="@+id/housingButton"
         android:layout_centerHorizontal="true"
         android:text="@string/deadlineButtonTitle"
-        android:onClick="openDeadline" />
+        android:onClick="openDeadline"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/otherResourcesNewsAndWeather"
         android:id="@+id/button8"
         android:layout_below="@+id/deadlineButton"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="openNewsAndWeather" />
+        android:onClick="openNewsAndWeather"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 
     <Button
         android:layout_width="fill_parent"
@@ -84,7 +90,9 @@
         android:id="@+id/registrationButton"
         android:layout_below="@+id/button8"
         android:layout_centerHorizontal="true"
-        android:onClick="openRegistrationPage" />
+        android:onClick="openRegistrationPage"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 
     <Button
         android:layout_width="fill_parent"
@@ -92,16 +100,17 @@
         android:text="@string/eventsButton"
         android:id="@+id/eventsButton"
         android:layout_below="@+id/registrationButton"
-        android:layout_centerHorizontal="true"
-        android:onClick="openEventsPage" />
+        android:onClick="openEventsPage"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_below="@+id/otherResourceHeader"
-        android:layout_centerHorizontal="true"
-        android:contentDescription="@string/otherResourcesHeader" />
+        android:src="@drawable/other_resources"
+        android:adjustViewBounds="true"
+        android:id="@+id/otherResourcesHeaderImage"/>
+
     </RelativeLayout>
  </ScrollView>
 

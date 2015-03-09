@@ -16,38 +16,36 @@
             android:paddingTop="@dimen/activity_vertical_margin"
             android:paddingBottom="@dimen/activity_vertical_margin">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/healthInsuranceHeader"
-        android:id="@+id/healthInsuranceHeader"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:gravity="center"
-        android:textSize="@dimen/infoTextsize"
-        android:paddingBottom="15sp" />
-
-    <TextView
+            <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/f1StudentDescrip"
         android:id="@+id/f1StudentDescrip"
-        android:layout_below="@+id/healthInsuranceHeader"
         android:layout_centerHorizontal="true"
-        android:gravity="left|center"
-        android:textSize="@dimen/descripTextSize" />
+        android:gravity="center"
+        android:textSize="@dimen/descripTextSize"
+        android:layout_below="@+id/healthInsuranceHeaderImage"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/j1StudentDescrip"
         android:id="@+id/j1StudentDescrip"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/f1StudentDescrip"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textSize="@dimen/descripTextSize" />
-
+        android:textSize="@dimen/descripTextSize"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/healthInsuranceHeaderImage"
+        android:src="@drawable/other_resources"
+        android:adjustViewBounds="true" />
 </RelativeLayout>
     </ScrollView>
     <ListView
