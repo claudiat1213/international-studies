@@ -29,7 +29,7 @@
             android:layout_marginRight="16dp"
             android:layout_below="@+id/exchangeProgramHeaderImage" />
 
-        <Button
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/NationalStudentExchangeProgram"
@@ -38,12 +38,11 @@
             android:gravity="center"
             android:paddingTop="10dp"
             android:layout_below="@+id/textView2"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp" />
+            android:layout_marginRight="16dp"
+            android:src="@drawable/national_student_exchange_program"/>
 
-        <Button
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/exchangeFinancialAid"
@@ -51,10 +50,9 @@
             android:gravity="center"
             android:onClick="startCSUSBNseWebsite"
             android:layout_below="@+id/button2"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp" />
+            android:layout_marginRight="16dp"
+            android:src="@drawable/exchange_program_financial_aid_button"/>
 
             <TextView
             android:layout_width="match_parent"
