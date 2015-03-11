@@ -52,6 +52,7 @@
         Study Abroad students are eligible to receive an additional $3,000 for studying for the
         Critical Need Languages(Arabic, Chinese, Turkic, Persian, Indic, Korean, and Russian).
     </string>
+    <string name="apply">Apply</string>
 
     <!-- Strings for About CISP page -->
     <string name="title_activity_about_cisp">About CISP</string>

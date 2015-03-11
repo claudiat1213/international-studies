@@ -43,7 +43,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/other_resources"
+        android:src="@drawable/about_us"
         android:id="@+id/aboutCispHeaderImage"
         android:adjustViewBounds="true" />
     <ImageButton
@@ -54,7 +54,8 @@
         android:layout_below="@+id/aboutCispHeaderImage"
         android:onClick="openChartPDF"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="16dp"
+        android:contentDescription="organization_chart" />
 
 
 </RelativeLayout>
