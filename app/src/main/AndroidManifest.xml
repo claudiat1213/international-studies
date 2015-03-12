@@ -171,7 +171,8 @@
         </activity>
         <activity
             android:name=".StudyAbroadGilmanScholarship"
-            android:label="@string/title_activity_study_abroad_gilman_scholarship" >
+            android:label="@string/title_activity_study_abroad_gilman_scholarship"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 
