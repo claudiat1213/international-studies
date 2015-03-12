@@ -30,7 +30,7 @@
             android:layout_marginTop="5dp"
             android:layout_below="@+id/testOrientationButton" />
 
-        <Button
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/programsAndCourses"
@@ -39,9 +39,10 @@
             android:layout_below="@+id/secondAdviseHeaderImage"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:src="@drawable/programs_and_courses"/>
 
-        <Button
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/testOrientationButtonTitle"
@@ -49,7 +50,8 @@
             android:onClick="openOrientation"
             android:layout_below="@+id/informationItemButton"
             android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp" />
+            android:layout_marginRight="16dp"
+            android:src="@drawable/orientation_and_testing"/>
 
         <ImageView
             android:layout_width="wrap_content"

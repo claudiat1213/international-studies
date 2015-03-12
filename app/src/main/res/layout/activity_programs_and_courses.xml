@@ -16,7 +16,7 @@
             android:paddingTop="@dimen/activity_vertical_margin"
             android:paddingBottom="@dimen/activity_vertical_margin">
 
-        <Button
+        <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/courseListings"
@@ -25,9 +25,10 @@
             android:layout_below="@+id/programsCoursesImage"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:src="@drawable/course_listings_button" />
 
-            <Button
+            <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/ge_courses_button"
@@ -35,7 +36,8 @@
             android:onClick="openGeCourses"
             android:layout_below="@+id/CourseListingsButton"
             android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp" />
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ge_courses_button" />
 
         <TextView
             android:layout_width="wrap_content"
