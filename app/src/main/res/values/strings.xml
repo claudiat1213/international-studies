@@ -50,8 +50,7 @@
         of study. The average award is $4000. Undergraduate students who are receiving federal
         Pell Grant funding at 2-year or 4-year colleges or universities are eligible to apply.
         Study Abroad students are eligible to receive an additional $3,000 for studying for the
-        Critical Need Languages(Arabic, Chinese, Turkic, Persian, Indic, Korean, and Russian).
-    </string>
+        Critical Need Languages(Arabic, Chinese, Turkic, Persian, Indic, Korean, and Russian).</string>
     <string name="apply">Apply</string>
 
     <!-- Strings for About CISP page -->
@@ -362,5 +361,10 @@
     <string name="programsandcoursesheader2">Most lecture/discussion courses are offered for four units of credit and meet four hours per week. Each unit of credit typically requires two hours of out-of-class study and preparation in addition to the hour of direct instruction in the class. Laboratories and activity-based courses, such as studio art, music, physical education, computer science, etc. meet for 2-3 hours of instruction a week for each unit of credit. Students transferring from a semester system campus should note semester courses are five weeks longer (15 weeks versus 10) so that a quarter unit is equal to 2/3 of a semester unit. (Thus, three semester units are equivalent to 4.5 quarter units.)</string>
     <string name="programsandcoursesheader3">The total number of quarter units required for graduation varies from a minimum of 180 for the Bachelor of Arts degree to 198 units for the Bachelor of Science. Students planning to graduate in four years need to take an average of 15 units per quarter to reach 180 units. Master\'s degrees require a minimum of 45 units, but some professional degrees, such as the M.S.W. in Social Work and M.S. in Psychology, have licensing and/or accreditation standards demanding up to 90 units. The Ed.D. in Educational Leadership requires 92 units for completion.</string>
     <string name="title_activity_study_abroad_gilman_scholarship">StudyAbroadGilmanScholarship</string>
+    <string name="title_activity_full_bright_program">fullBright_program</string>
+    <string name="full_bright_text_button">For more information visit their website</string>
+    <string name="full_bright_text_view">The Fullbright Program is for students (a graduating senior; hold a B.S./B.A. degree; or a masters or doctoral degree candidate;
+        or are a young professional or artist), scholars, and professionals to undertake international graduate study, advanced research, university teaching, and teaching
+        in elementary and secondary schools worldwide.</string>
 
 </resources>

@@ -15,7 +15,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 
-public class StudyAbroad extends ActionBarActivity{
+public class fullBright_program extends ActionBarActivity {
 
     private ListView mDrawerList;
     private DrawerLayout mDrawerLayout;
@@ -26,9 +26,10 @@ public class StudyAbroad extends ActionBarActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_study_abroad);
+        setContentView(R.layout.activity_study_abroad_full_bright_program);
 
-        mDrawerList = (ListView)findViewById(R.id.navList);mDrawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
+        mDrawerList = (ListView)findViewById(R.id.navList);
+        mDrawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         mActivityTitle = getTitle().toString();
 
         addDrawerItems();
@@ -47,22 +48,22 @@ public class StudyAbroad extends ActionBarActivity{
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
-                    Intent intent = new Intent(StudyAbroad.this, aboutCisp.class);
+                    Intent intent = new Intent(fullBright_program.this, aboutCisp.class);
                     startActivity(intent);
                 } else if (position == 1){
-                    Intent intent = new Intent(StudyAbroad.this, secondAdvise.class);
+                    Intent intent = new Intent(fullBright_program.this, secondAdvise.class);
                     startActivity(intent);
                 }else if (position == 2) {
-                    Intent intent = new Intent(StudyAbroad.this, admissionsInfo.class);
+                    Intent intent = new Intent(fullBright_program.this, admissionsInfo.class);
                     startActivity(intent);
                 }else if (position == 3) {
-                    Intent intent = new Intent(StudyAbroad.this, StudyAbroad.class);
+                    Intent intent = new Intent(fullBright_program.this, StudyAbroad.class);
                     startActivity(intent);
                 }else if (position == 4) {
-                    Intent intent = new Intent(StudyAbroad.this, exchangeProgram.class);
+                    Intent intent = new Intent(fullBright_program.this, exchangeProgram.class);
                     startActivity(intent);
                 }else if (position == 5){
-                    Intent intent = new Intent(StudyAbroad.this, otherResources.class);
+                    Intent intent = new Intent(fullBright_program.this, otherResources.class);
                     startActivity(intent);
                 }
             }
@@ -104,10 +105,11 @@ public class StudyAbroad extends ActionBarActivity{
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_study_abroad, menu);
+        getMenuInflater().inflate(R.menu.menu_full_bright_program, menu);
         return true;
     }
 
@@ -122,7 +124,6 @@ public class StudyAbroad extends ActionBarActivity{
         if (id == R.id.action_settings) {
             return true;
         }
-
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
@@ -130,25 +131,9 @@ public class StudyAbroad extends ActionBarActivity{
         return super.onOptionsItemSelected(item);
     }
 
-    public void openHorizonApplication(View view) {
-        Uri uri = Uri.parse("https://csusb-horizons.symplicity.com/index.php?s=StudentHome");
+    public void openFullBrightMoreInfo(View view) {
+        Uri uri = Uri.parse("http://us.fulbrightonline.org/applicants/getting-started");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
-    }
-
-    public void openStudyAbroadProgramsList(View view) {
-        Uri uri = Uri.parse("https://csusb-horizons.symplicity.com/index.php?s=programs&au=&ck=");
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
-    }
-
-    public void openGilmanScholarship(View view) {
-        Intent intent = new Intent(this, StudyAbroadGilmanScholarship.class);
-        startActivity(intent);
-    }
-
-    public void openFullBrightProgram(View view) {
-        Intent intent = new Intent(this, fullBright_program.class);
         startActivity(intent);
     }
 }
