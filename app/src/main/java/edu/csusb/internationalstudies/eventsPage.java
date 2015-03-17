@@ -2,6 +2,7 @@ package edu.csusb.internationalstudies;
 
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -127,5 +128,12 @@ public class eventsPage extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void opensmsuEvents(View view) {
+
+        Uri uri = Uri.parse("http://studentunion.csusb.edu/events");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
     }
 }

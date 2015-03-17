@@ -178,6 +178,10 @@
             android:name=".fullBright_program"
             android:label="@string/title_activity_full_bright_program" >
         </activity>
+        <activity
+            android:name=".smsuEvents"
+            android:label="@string/title_activity_smsu_events" >
+        </activity>
     </application>
 
 </manifest>
