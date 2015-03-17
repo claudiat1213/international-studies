@@ -32,6 +32,19 @@
             android:layout_marginRight="16dp"
             android:layout_below="@+id/eventsHeaderImage"
             android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eventsButton"
+            android:id="@+id/eventsButton"
+            android:layout_below="@+id/eventsDescription"
+            android:onClick="opensmsuEvents"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/smsuevents"/>
+
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
