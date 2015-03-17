@@ -27,23 +27,25 @@
             android:textSize="@dimen/descripTextSize"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_below="@+id/exchangeProgramHeaderImage" />
+            android:layout_below="@+id/textView7" />
 
         <ImageButton
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/NationalStudentExchangeProgram"
             android:id="@+id/button2"
             android:onClick="startNseWebsite"
             android:gravity="center"
             android:paddingTop="10dp"
-            android:layout_below="@+id/textView2"
+            android:layout_below="@+id/exchangeProgramHeaderImage"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:src="@drawable/national_student_exchange_program"/>
+            android:src="@drawable/national_student_exchange_program"
+            android:scaleType="fitCenter"
+            android:background="#00000000"/>
 
         <ImageButton
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/exchangeFinancialAid"
             android:id="@+id/button3"
@@ -52,7 +54,9 @@
             android:layout_below="@+id/button2"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:src="@drawable/exchange_program_financial_aid_button"/>
+            android:src="@drawable/exchange_program_financial_aid_button"
+            android:scaleType="fitStart"
+            android:background="#00000000"/>
 
             <TextView
             android:layout_width="match_parent"
@@ -73,16 +77,15 @@
             android:layout_height="wrap_content"
             android:text="@string/exchangeProgram121Body"
             android:id="@+id/textView8"
-            android:layout_below="@+id/textView7"
+            android:layout_below="@+id/textView2"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:gravity="center"
             android:textSize="@dimen/descripTextSize"
-            android:layout_alignLeft="@+id/textView7"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp" />
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:src="@drawable/exchange_program"
