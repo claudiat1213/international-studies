@@ -55,7 +55,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:src="@drawable/exchange_program_financial_aid_button"
-            android:scaleType="fitStart"
+            android:scaleType="fitCenter"
             android:background="#00000000"/>
 
             <TextView

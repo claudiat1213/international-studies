@@ -92,12 +92,12 @@ public class programsAndCourses extends ActionBarActivity{
         mDrawerLayout.setDrawerListener(mDrawerToggle);
     }
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_programs_and_sources, menu);
         return true;
-    }
+    }*/
     public void startCourseListingsWebsite(View view) {
         Uri uri = Uri.parse("https://acsweb.csusb.edu/schedule/astra/schedule.jsp");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);

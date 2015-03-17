@@ -91,12 +91,12 @@ public class secondAdvise extends ActionBarActivity {
         mDrawerLayout.setDrawerListener(mDrawerToggle);
     }
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_second_advise, menu);
         return true;
-    }
+    }*/
     public void startprogramsAndCourses(View view) {
         Intent intent = new Intent(this, programsAndCourses.class);
         startActivity(intent);

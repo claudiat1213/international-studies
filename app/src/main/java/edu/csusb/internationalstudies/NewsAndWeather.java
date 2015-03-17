@@ -106,12 +106,12 @@ public class NewsAndWeather extends ActionBarActivity {
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_activity_news_and_weather, menu);
         return true;
-    }
+    }*/
     public void startNewsWebsite(View view) {
         Uri uri = Uri.parse("http://news.csusb.edu/");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);

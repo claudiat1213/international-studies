@@ -104,12 +104,12 @@ public class housing extends ActionBarActivity {
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_housing, menu);
         return true;
-    }
+    }*/
 
     public void openOnCampusHousing (View view) {
         Intent intent = new Intent(this, housingOnCampusWebSite.class );
