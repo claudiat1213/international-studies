@@ -3,6 +3,7 @@ package edu.csusb.internationalstudies;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -142,7 +143,8 @@ public class otherResources extends ActionBarActivity {
     }
 
     public void openEventsPage (View view) {
-        Intent intent = new Intent(this, eventsPage.class);
+        Uri uri = Uri.parse("http://studentunion.csusb.edu/events");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
 

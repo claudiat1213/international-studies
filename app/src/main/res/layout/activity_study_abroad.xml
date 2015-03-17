@@ -29,7 +29,8 @@
         android:layout_marginRight="16dp"
         android:src="@drawable/browse_programs_button"
         android:scaleType="fitCenter"
-        android:background="#00000000" />
+        android:background="#00000000"
+        android:contentDescription="@string/studyAbroad_programsButton"/>
 
     <ImageButton
         android:layout_width="fill_parent"
@@ -43,7 +44,8 @@
         android:layout_below="@+id/studyAbroadHeaderImage"
         android:src="@drawable/horizon_application_button"
         android:scaleType="fitCenter"
-        android:background="#00000000" />
+        android:background="#00000000"
+        android:contentDescription="@string/title_activity_study_abroad_horizon_application"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,7 +64,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/study_abroad"
         android:id="@+id/studyAbroadHeaderImage"
-        android:adjustViewBounds="true" />
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/studyAbroad_title"/>
 
     <ImageButton
         android:layout_width="fill_parent"
@@ -76,7 +79,8 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="5dp"
         android:scaleType="fitCenter"
-        android:background="#00000000" />
+        android:background="#00000000"
+        android:contentDescription="@string/title_activity_study_abroad_gilman_scholarship"/>
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -88,7 +92,8 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="5dp"
         android:scaleType="fitCenter"
-        android:background="#00000000" />
+        android:background="#00000000"
+        android:contentDescription="@string/full_bright_text_button"/>
 
 
     </RelativeLayout>

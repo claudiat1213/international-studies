@@ -43,7 +43,8 @@
             android:layout_below="@+id/newsAndWeatherCampusNewsButton"
             android:src="@drawable/newcampusnews"
             android:scaleType="fitCenter"
-            android:background="#00000000" />
+            android:background="#00000000"
+            android:contentDescription="@string/newsandweatherCSUSBNews"/>
 
         <ImageButton
             android:layout_width="fill_parent"
@@ -56,7 +57,8 @@
             android:layout_below="@+id/newsWeatherImageView"
             android:src="@drawable/newcampusweather"
             android:scaleType="fitCenter"
-            android:background="#00000000" />
+            android:background="#00000000"
+            android:contentDescription="@string/newsandweatherCSUSBWeather"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -64,7 +66,8 @@
             android:src="@drawable/other_resources"
             android:adjustViewBounds="true"
             android:id="@+id/newsWeatherImageView"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/otherResourcesHeader"/>
         </RelativeLayout>
     </ScrollView>
 

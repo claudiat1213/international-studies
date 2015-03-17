@@ -11,7 +11,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
 
         <ImageButton
@@ -29,7 +29,8 @@
             android:layout_marginTop="5dp"
             android:src="@drawable/about_us_button"
             android:scaleType="fitCenter"
-            android:background="#00000000" />
+            android:background="#00000000"
+            android:contentDescription="@string/mainAboutCispTitle"/>
         <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -43,7 +44,8 @@
             android:src="@drawable/academic_advising_button"
             android:scaleType="fitCenter"
             android:background="#00000000"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/mainAdviseTitle"/>
         <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -57,7 +59,8 @@
             android:src="@drawable/admissions_button"
             android:scaleType="fitCenter"
             android:background="#00000000"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/mainAdmissionsTitle"/>
 
         <ImageButton
             android:layout_width="fill_parent"
@@ -72,7 +75,8 @@
             android:src="@drawable/study_abroad_button"
             android:scaleType="fitCenter"
             android:background="#00000000"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/mainStudyTitle"/>
 
 
         <ImageButton
@@ -88,7 +92,8 @@
             android:src="@drawable/exchange_program_button"
             android:scaleType="fitCenter"
             android:background="#00000000"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/mainExchangeTitle"/>
 
         <ImageButton
             android:layout_width="fill_parent"
@@ -103,14 +108,16 @@
             android:src="@drawable/other_resources_button"
             android:scaleType="fitCenter"
             android:background="#00000000"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/mainOtherTitle"/>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/main_page_banner"
             android:src="@drawable/main_page"
-            android:adjustViewBounds="true" />
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/mainTitle"/>
 
 
     </RelativeLayout>

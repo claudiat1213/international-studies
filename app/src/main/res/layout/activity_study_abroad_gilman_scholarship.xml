@@ -31,7 +31,8 @@
     android:layout_height="wrap_content"
     android:adjustViewBounds="true"
     android:src="@drawable/study_abroad"
-    android:id="@+id/gilmanScholarshipHeaderImage"/>
+    android:id="@+id/gilmanScholarshipHeaderImage"
+    android:contentDescription="@string/studyAbroad_title"/>
 
     <ImageButton
         android:layout_width="fill_parent"
@@ -46,7 +47,8 @@
         android:onClick="openGilmanApplication"
         android:src="@drawable/newapply"
         android:scaleType="fitCenter"
-        android:background="#00000000" />
+        android:background="#00000000"
+        android:contentDescription="@string/apply"/>
 
         </RelativeLayout>
     </ScrollView>
