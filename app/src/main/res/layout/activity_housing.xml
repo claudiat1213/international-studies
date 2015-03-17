@@ -50,7 +50,7 @@
             android:onClick="openOnCampusHousing"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:src="@drawable/oncampushousing"/>
+            android:src="@drawable/newoncampushousing"/>
 
         <TextView
             android:layout_width="wrap_content"

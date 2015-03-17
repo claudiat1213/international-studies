@@ -41,7 +41,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="16dp"
             android:layout_below="@+id/newsAndWeatherCampusNewsButton"
-            android:src="@drawable/campusnews"/>
+            android:src="@drawable/newcampusnews"/>
 
         <ImageButton
             android:layout_width="fill_parent"
@@ -52,7 +52,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_below="@+id/newsWeatherImageView"
-            android:src="@drawable/campusweather"/>
+            android:src="@drawable/newcampusweather"/>
 
         <ImageView
             android:layout_width="match_parent"
