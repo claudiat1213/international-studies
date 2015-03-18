@@ -19,21 +19,21 @@ import java.io.OutputStream;
 
 public class cispOrganizationalChart extends ActionBarActivity{
 
-    /*@Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cisp_organizational_chart);
     //Run PDF file CISP_flowchart.pdf
         CopyReadAssests();
-    }*/
+    }
 
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_cisp_organizational_chart, menu);
         return true;
-    }
+    }*/
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
