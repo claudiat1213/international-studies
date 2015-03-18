@@ -91,12 +91,12 @@ public class orientation extends ActionBarActivity {
         mDrawerLayout.setDrawerListener(mDrawerToggle);
     }
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_orientation, menu);
         return true;
-    }
+    }*/
     public void openOrientationInfo(View view) {
         Uri uri = Uri.parse("http://international.csusb.edu/Pages/Admissions/Orientation.aspx");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);

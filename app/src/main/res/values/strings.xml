@@ -366,5 +366,7 @@
     <string name="full_bright_text_view">The Fullbright Program is for students (a graduating senior; hold a B.S./B.A. degree; or a masters or doctoral degree candidate;
         or are a young professional or artist), scholars, and professionals to undertake international graduate study, advanced research, university teaching, and teaching
         in elementary and secondary schools worldwide.</string>
+    <string name="title_activity_smsuevents">smsuevents</string>
+    <string name="title_activity_smsu_events">smsuEvents</string>
 
 </resources>

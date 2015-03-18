@@ -45,7 +45,8 @@
         android:layout_height="fill_parent"
         android:id="@+id/healthInsuranceHeaderImage"
         android:src="@drawable/other_resources"
-        android:adjustViewBounds="true" />
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/otherResourcesHeader"/>
 </RelativeLayout>
     </ScrollView>
     <ListView

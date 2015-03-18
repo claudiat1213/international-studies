@@ -1,37 +1,27 @@
 package edu.csusb.internationalstudies;
 
-
-//import android.content.Context;
-import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-//import android.view.Display;
 import android.view.Menu;
 import android.view.MenuItem;
-//import android.view.WindowManager;
-import android.webkit.WebView;
+import android.view.View;
 
 
-public class housingOnCampusWebSite extends ActionBarActivity{
+public class smsuEvents extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_housing_on_campus_web_site);
-        WebView myWebView = (WebView) findViewById(R.id.onCampusWebView);
-        myWebView.getSettings().setLoadWithOverviewMode(true);
-        myWebView.getSettings().setUseWideViewPort(true);
-        myWebView.getSettings().setBuiltInZoomControls(true);
-        myWebView.getSettings().setSupportZoom(true);
-        myWebView.getSettings().setJavaScriptEnabled(true);
-        myWebView.loadUrl("http://housing.csusb.edu/");
+        setContentView(R.layout.activity_smsu_events);
     }
 
 
     /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_housing_on_campus_web_site, menu);
+        getMenuInflater().inflate(R.menu.menu_smsu_events, menu);
         return true;
     }*/
 
@@ -49,4 +39,6 @@ public class housingOnCampusWebSite extends ActionBarActivity{
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }

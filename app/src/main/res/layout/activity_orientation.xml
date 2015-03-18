@@ -25,7 +25,10 @@
         android:layout_marginTop="5dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:src="@drawable/orientation_information_button"/>
+        android:src="@drawable/orientation_information_button"
+        android:scaleType="fitCenter"
+        android:background="#00000000"
+        android:contentDescription="@string/orientation_info_button"/>
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -36,7 +39,11 @@
         android:layout_below="@+id/button12"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:src="@drawable/vital_technology_videos_button"/>
+        android:src="@drawable/vital_technology_videos_button"
+        android:scaleType="fitCenter"
+        android:background="#00000000"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/vital_tech_vids_button"/>
 
     <ImageButton
         android:layout_width="fill_parent"
@@ -47,13 +54,18 @@
         android:onClick="openTests"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:src="@drawable/ept_and_elm_testing"/>
+        android:src="@drawable/ept_and_elm_testing"
+        android:scaleType="fitCenter"
+        android:background="#00000000"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/EPT_ELM_button"/>
      <ImageView
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:src="@drawable/academic_advising"
          android:id="@+id/orientationHeaderImage"
-         android:adjustViewBounds="true" />
+         android:adjustViewBounds="true"
+         android:contentDescription="@string/secondAdviseHeader"/>
 </RelativeLayout>
     </ScrollView>
     <ListView

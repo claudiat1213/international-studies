@@ -89,12 +89,12 @@ public class aboutCisp extends ActionBarActivity {
         mDrawerLayout.setDrawerListener(mDrawerToggle);
     }
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_about_cisp, menu);
         return true;
-    }
+    }*/
 
     public void openChartPDF(View view){
         Intent intent = new Intent(this, cispOrganizationalChart.class);

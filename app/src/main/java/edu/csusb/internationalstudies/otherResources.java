@@ -3,6 +3,7 @@ package edu.csusb.internationalstudies;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -104,12 +105,12 @@ public class otherResources extends ActionBarActivity {
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_other_resources, menu);
         return true;
-    }
+    }*/
 
     public void openHealthInsurance (View view) {
         Intent intent = new Intent(this, healthInsurance.class);
@@ -142,7 +143,8 @@ public class otherResources extends ActionBarActivity {
     }
 
     public void openEventsPage (View view) {
-        Intent intent = new Intent(this, eventsPage.class);
+        Uri uri = Uri.parse("http://studentunion.csusb.edu/events");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
 

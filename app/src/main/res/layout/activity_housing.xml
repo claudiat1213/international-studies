@@ -40,7 +40,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp" />
 
-        <Button
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/onCampusForStudentsButtonTitle"
@@ -49,7 +49,11 @@
             android:layout_centerHorizontal="true"
             android:onClick="openOnCampusHousing"
             android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp" />
+            android:layout_marginRight="16dp"
+            android:src="@drawable/newoncampushousing"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/onCampusForStudentsButtonTitle"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -176,7 +180,8 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/other_resources"
                 android:adjustViewBounds="true"
-                android:id="@+id/housingHeaderImage"/>
+                android:id="@+id/housingHeaderImage"
+                android:contentDescription="@string/otherResourcesHeader"/>
         </RelativeLayout>
     </ScrollView>
     <ListView

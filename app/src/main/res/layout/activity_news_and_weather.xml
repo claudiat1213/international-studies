@@ -31,7 +31,7 @@
             android:layout_marginRight="16dp"
             android:textSize="@dimen/descripTextSize"/>
 
-        <Button
+        <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/newsandweatherCSUSBNews"
@@ -40,9 +40,13 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="16dp"
-            android:layout_below="@+id/newsAndWeatherCampusNewsButton" />
+            android:layout_below="@+id/newsAndWeatherCampusNewsButton"
+            android:src="@drawable/newcampusnews"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:contentDescription="@string/newsandweatherCSUSBNews"/>
 
-        <Button
+        <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/newsandweatherCSUSBWeather"
@@ -50,14 +54,20 @@
             android:onClick="startWeatherUnderground"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_below="@+id/newsWeatherImageView" />
+            android:layout_below="@+id/newsWeatherImageView"
+            android:src="@drawable/newcampusweather"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:contentDescription="@string/newsandweatherCSUSBWeather"/>
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/other_resources"
             android:adjustViewBounds="true"
             android:id="@+id/newsWeatherImageView"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/otherResourcesHeader"/>
         </RelativeLayout>
     </ScrollView>
 

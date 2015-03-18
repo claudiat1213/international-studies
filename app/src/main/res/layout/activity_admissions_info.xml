@@ -27,7 +27,10 @@
         android:onClick="openAdmissionsUndergrad"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:src="@drawable/undergraduate_program_button"/>
+        android:src="@drawable/undergraduate_program_button"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:contentDescription="@string/admissionsUndergrad"/>
 
     <ImageButton
         android:layout_width="fill_parent"
@@ -36,9 +39,12 @@
         android:id="@+id/admissionsGrad"
         android:layout_below="@+id/admissionsUndergrad"
         android:onClick="openAdmissionsGrad"
-        android:src="@drawable/graduate_mba_programs_button"
+        android:src="@drawable/graduate"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="16dp"
+        android:scaleType="fitCenter"
+        android:background="#00000000"
+        android:contentDescription="@string/admissionsGrad"/>
 
     <ImageButton
         android:layout_width="fill_parent"
@@ -47,9 +53,12 @@
         android:id="@+id/admissionsMBA"
         android:layout_below="@+id/admissionsGrad"
         android:onClick="openAdmissionsMBA"
-        android:src="@drawable/graduate_mba_programs_button"
+        android:src="@drawable/mba"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="16dp"
+        android:scaleType="fitCenter"
+        android:background="#00000000"
+        android:contentDescription="@string/admissionsMBA"/>
 
     <ImageButton
         android:layout_width="fill_parent"
@@ -60,13 +69,17 @@
         android:onClick="openCSUMentor"
         android:src="@drawable/access_cse_mentor_button"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="16dp"
+        android:scaleType="fitCenter"
+        android:background="#00000000"
+        android:contentDescription="@string/admissionsCSUMentor"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/admissionsInfoHeaderImage"
         android:src="@drawable/admissions"
-        android:adjustViewBounds="true" />
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/admissionsHeader" />
     </RelativeLayout>
     </ScrollView>
     <ListView

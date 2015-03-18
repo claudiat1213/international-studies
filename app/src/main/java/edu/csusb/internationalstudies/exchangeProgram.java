@@ -105,12 +105,12 @@ public class exchangeProgram extends ActionBarActivity{
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_exchange_program, menu);
         return true;
-    }
+    }*/
     public void startNseWebsite(View view) {
         Uri uri = Uri.parse("http://www.nse.org/");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
