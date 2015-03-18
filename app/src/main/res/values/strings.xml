@@ -72,7 +72,7 @@
      pamaya@csusb.edu\n
      (909) 537-5193\n\n
 
-     Dr.Rueyling Chuang\n
+     Dr Rueyling Chuang\n
      Faculty Director, CISP\n
      rchuang@csusb.edu\n
      (909) 537-9537\n\n
@@ -358,7 +358,7 @@
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="programsandcoursesheader1">California State University, San Bernardino operates on the quarter system. The fall, winter and spring terms each consist of 10 weeks of instruction plus a final exam week. The university also offers a summer quarter allowing students to accelerate their progress and take summer courses. Summer quarter has overlapping five-week and one 10-week terms.</string>
-    <string name="programsandcoursesheader2">Most lecture/discussion courses are offered for four units of credit and meet four hours per week. Each unit of credit typically requires two hours of out-of-class study and preparation in addition to the hour of direct instruction in the class. Laboratories and activity-based courses, such as studio art, music, physical education, computer science, etc. meet for 2-3 hours of instruction a week for each unit of credit. Students transferring from a semester system campus should note semester courses are five weeks longer (15 weeks versus 10) so that a quarter unit is equal to 2/3 of a semester unit. (Thus, three semester units are equivalent to 4.5 quarter units.)</string>
+    <string name="programsandcoursesheader2">Most lecture/discussion courses are offered for four units of credit and meet four hours per week. Each unit of credit typically requires two hours of out-of-class study and preparation in addition to the hour of direct instruction in the class. Laboratories and activity-based courses, such as studio art, music, physical education, computer science, etc. meet for two to three hours of instruction a week for each unit of credit. Students transferring from a semester system campus should note semester courses are five weeks longer (15 weeks versus 10) so that a quarter unit is equal to two-thirds of a semester unit. (Thus, three semester units are equivalent to 4.5 quarter units.)</string>
     <string name="programsandcoursesheader3">The total number of quarter units required for graduation varies from a minimum of 180 for the Bachelor of Arts degree to 198 units for the Bachelor of Science. Students planning to graduate in four years need to take an average of 15 units per quarter to reach 180 units. Master\'s degrees require a minimum of 45 units, but some professional degrees, such as the M.S.W. in Social Work and M.S. in Psychology, have licensing and/or accreditation standards demanding up to 90 units. The Ed.D. in Educational Leadership requires 92 units for completion.</string>
     <string name="title_activity_study_abroad_gilman_scholarship">StudyAbroadGilmanScholarship</string>
     <string name="title_activity_full_bright_program">fullBright_program</string>
