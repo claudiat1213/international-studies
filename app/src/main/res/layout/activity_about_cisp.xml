@@ -2,15 +2,16 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         tools:context="edu.csusb.internationalstudies.aboutCisp"
         android:id="@+id/drawer_layout">
+
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-    <RelativeLayout
+   <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingRight="@dimen/activity_horizontal_margin"
@@ -50,7 +51,8 @@
         android:id="@+id/aboutCispHeaderImage"
         android:adjustViewBounds="true"
         android:contentDescription="@string/aboutCispHeader"/>
-    <ImageButton
+
+       <ImageButton
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/cisp_organizational_chart_button"
@@ -72,7 +74,6 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:gravity="right"
-        android:background="#EEE"
-        android:textFilterEnabled="false" />
+        android:background="#EEE" />
 
 </android.support.v4.widget.DrawerLayout>
